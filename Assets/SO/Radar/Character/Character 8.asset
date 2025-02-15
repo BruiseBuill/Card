@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b68ac49c010cad641b535abda38287cb, type: 3}
+  m_Name: Character 8
+  m_EditorClassIdentifier: 
+  name: "\u6587\u5A31\u59D4\u5458"
+  isMale: 0
+  powerPoints: 03000000020000000500000002000000
+  skill: "\u5982\u679C\u5176\u4ED6\u4EBA\u5BF9\u4F60\u4F7F\u7528\u201C\u6C99\u6EE9\u773C\u955C\u201D/\u201C\u73AB\u7470\u9999\u6C34\u201D\u7B49\u793C\u7269\u724C\uFF0C\u989D\u5916\u589E\u52A0\u4E00\u70B9\u597D\u611F\u5EA6\uFF0C\u4E0D\u80FD\u7A81\u7834lv6"
