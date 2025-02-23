@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3c8af4a1cb41a489acba38ded7d71d, type: 3}
+  m_Name: Act 31
+  m_EditorClassIdentifier: 
+  name: "\u770B\u4E66\u5B66\u4E60"
+  description: "\_\_\_\_\_\_\_\u63D0\u5347\u4E00\u70B9\u52C7\u6C14\u3002"
+  condition: 
+  remark: 
+  comment: "\u201C\u514B\u82CF\u9C81\u7684\u53F9\u606F\u201D"
+  cardType: "\u80FD\u529B\u724C"

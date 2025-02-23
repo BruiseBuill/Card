@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399f2f06a965e9b408844e229afc520b, type: 3}
+  m_Name: CardData 1
+  m_EditorClassIdentifier: 
+  name: "\u8150\u8089"
+  cardType: 0
+  characterNameList:
+  - "\u72EE\u5B50"
+  - "\u4E4C\u9E26"
+  - "\u8725\u8734"
+  - "\u91CE\u732A"
+  additionalTip: "Tip\u6587\u672C"
+  supContent: "Sup\u6587\u672C"
+  count: 11

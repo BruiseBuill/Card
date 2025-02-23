@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd37f19124c515a468080655f0c4c7fd, type: 3}
+  m_Name: Lawyer
+  m_EditorClassIdentifier: 
+  name: "\u5F8B\u5E08"
+  sprite: {fileID: 21300000, guid: c68ba0e390c96c84b8bcbe25a6cd0d19, type: 3}
+  color: {r: 0.6792453, g: 0.63742024, b: 0.060234927, a: 1}
+  background: "\u4F60\u5728\u706B\u707E\u6848\u4E2D\u4E3A<mark=#FF450065><color=#FFFFFFFF><b>\u201C\u7EB5\u706B\u8005\u201D</mark></color></b>\u8FDB\u884C\u8FA9\u62A4\uFF0C\u4F46\u6700\u7EC8\u672A\u80FD\u5C06\u5176\u6551\u4E0B\u3002\u4F60\u76F8\u4FE1\u4ED6\u662F\u65E0\u8F9C\u7684\uFF0C\u56E0\u6B64\u4F60\u65E0\u6CD5\u62D2\u7EDD\u8FD9\u5C01\u7591\u4F3C\u771F\u76F8\u7684\u9080\u8BF7\u51FD\u3002"
+  perspetive: "\u4F60\u548C<mark=#00008075><color=#FFFFFFFF><b>\u8B66\u5BDF</mark></color></b>\u662F\u5B66\u751F\u65F6\u671F\u5C31\u516C\u8BA4\u7684\u597D\u670B\u53CB\uFF0C\u4F46\u662F\u706B\u707E\u7684\u8FA9\u62A4\u4F7F\u5F7C\u6B64\u4EA7\u751F\u7684\u95F4\u9699\u3002\n<u>\u5F53\u573A\u4E0A\u5B58\u5728<mark=#00008075><color=#FFFFFFFF><b>\u8B66\u5BDF</mark></color></b>\u5E76\u4E14\u5B58\u5728\u4EFB\u4F55\u7B2C\u4E09\u8005\u65F6\uFF0C\u4F60\u4E0D\u80FD\u6307\u8BA4<mark=#00008075><color=#FFFFFFFF><b>\u8B66\u5BDF</mark></color></b>\uFF0C\u5426\u5219\u65E0\u8BBA\u6210\u529F\u4E0E\u5426\uFF0C\u4F60\u51CF\u5C11\u4E24\u5206\u3002\n</u>\u4F60\u8BA4\u4E3A\u5F53\u65F6\u7684\u5224\u51B3\u662F\u9519\u8BEF\u7684\uFF0C<mark=#FF450065><color=#FFFFFFFF><b>\u201C\u7EB5\u706B\u8005\u201D</mark></color></b>\u7684\u9003\u4EA1\u662F\u6B63\u786E\u7684\uFF0C\u4F60\u652F\u6301\u4ED6\u53CD\u53DB\u4E0D\u516C\u7684\u88C1\u51B3\u5E76\u63D0\u4F9B\u4E86\u5E2E\u52A9\u3002\n<u>\u5F53\u573A\u4E0A\u5B58\u5728<mark=#FF450065><color=#FFFFFFFF><b>\u201C\u7EB5\u706B\u8005\u201D</mark></color></b>\u65F6\uFF0C\u82E5\u5176\u7B2C\u516D\u56DE\u5408\u65F6\u4ECD\u7136\u5B58\u6D3B\uFF0C\u4F60\u83B7\u5F97\u4E00\u5206\u3002</u>"
+  otherRelation: "\u4F60\u4E5F\u662F<mark=#00008075><color=#FFFFFFFF><b>\u8B66\u5BDF</mark></color></b>\u7684\u201C\u597D\u670B\u53CB\u201D\u3002\n<mark=#6B8E2365><color=#FFFFFFFF><b>\u62A4\u6797\u5458</mark></color></b>\u6B32\u501F\u5176\u4ED6\u4EBA\u4E4B\u624B\u9664\u6389\u4F60\u3002"
+  skill: "\u5F53\u4F60\u6210\u4E3A\u4EE3\u7406\u4E3B\u6301\u65F6\uFF0C\u53EF\u4EE5\u80CC\u9762\u5411\u4E0A\u5F03\u6389\u4E00\u5F20\u724C\uFF0C\u7136\u540E\u518D\u6478\u4E00\u5F20\u3002"
+  alphaInBG: 75
+  colorTxt: 84891D

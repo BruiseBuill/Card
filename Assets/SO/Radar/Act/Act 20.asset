@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3c8af4a1cb41a489acba38ded7d71d, type: 3}
+  m_Name: Act 20
+  m_EditorClassIdentifier: 
+  name: "\u53D1\u597D\u4EBA\u5361"
+  description: "\_\_\_\_\_\_\_\u9009\u62E9\u4E00\u540D\u5F02\u6027\u5BF9\u8C61\uFF0C\u51CF\u5C11\u4E0ETA\u4E4B\u95F4\u7684\u4E00\u70B9\u597D\u611F\u5EA6\uFF0C\u518D\u9009\u62E9\u53E6\u5916\u4E00\u4E2A\u5F02\u6027\u5BF9\u8C61\uFF0C\u589E\u52A0\u4E0ETA\u4E4B\u95F4\u7684\u4E00\u70B9\u597D\u611F\u5EA6\u3002\u4E0D\u80FD\u7A81\u7834lv6\u3002"
+  condition: "\u6761\u4EF6\uFF1A\u4E0E\u7B2C1\u4E2A\u5F02\u6027\u5BF9\u8C61\u4E4B\u95F4\u7684\u597D\u611F\u5EA6\u81F3\u5C11\u8981\u4E3A1"
+  remark: 
+  comment: "\u201C\u4F60\u662F\u4E2A\u597D\u4EBA\uFF0C\u4F46\u6211\u5DF2\u7ECF\u6709\u559C\u6B22\u7684\u4EBA\u4E86\u201D"
+  cardType: "\u884C\u52A8\u724C-\u7279\u6B8A"
