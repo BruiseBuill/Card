@@ -12,6 +12,7 @@ namespace MagicFighting
         new public string name;
         //Water,Flare,Grass,Universe,MagicPower,Special
         public MagicCardKind kind;
+        public int level;
         public string mainDescription;
 
         public string additionalDescription;

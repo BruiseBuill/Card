@@ -13,7 +13,17 @@ namespace MagicFighting
         public TextMeshProUGUI nameText;
         public Image kindImage;
         public Image profileImage;
-        public TextMeshProUGUI descriptionText;
+
+
+        public GameObject introductionForNormalGo;
+        public TextMeshProUGUI magicCostText_0;
+        public TextMeshProUGUI descriptionText_0;
+        public TextMeshProUGUI magicCostText_1;
+        public TextMeshProUGUI descriptionText_1;
+
+        public GameObject introductionForMPGo;
+        public TextMeshProUGUI mpCardDescription;        
+
         public TextMeshProUGUI kindText;
 
         public void SetData(MagicCardData cardData)

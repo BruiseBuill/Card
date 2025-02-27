@@ -12,7 +12,10 @@ namespace MagicFighting
 
         public TextMeshProUGUI nameText;
         public Image kindImage;
+        public TextMeshProUGUI levelText;
+
         public TextMeshProUGUI descriptionText;
+        public TextMeshProUGUI additionalDescriptionText;
         public TextMeshProUGUI kindText;
 
         public void SetData(SkillCardData cardData)
