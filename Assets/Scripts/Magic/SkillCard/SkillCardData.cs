@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace MagicFighting
 {
-    public enum MagicCardKind { Water, Flare, Grass, Universe, MagicPower, Special, Modify};
+    public enum MagicCardKind { Modify, Water, Flare, Grass, Universe, MagicPower, Special,All };
 
     [CreateAssetMenu(fileName = "SkillCardData", menuName = "Magic/MagicCardData")]
  	public class SkillCardData : ScriptableObject
@@ -14,7 +14,6 @@ namespace MagicFighting
         public MagicCardKind kind;
         public int level;
         public string mainDescription;
-
         public string additionalDescription;
     }
 }

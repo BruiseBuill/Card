@@ -20,17 +20,14 @@ namespace MagicFighting
             string[] value;
             for (int i = 0; i < dataList.Count; i++)
             {
-                value = reader.ReadLine(i + 1, 6);
+                value = reader.ReadLine(i + 1, 7);
                 dataList[i].name = value[0];
                 dataList[i].kind = (MagicCardKind)(int.Parse(value[1]));
-                dataList[i].effect_0_MagicCost = int.Parse(value[2]);
-                dataList[i].effect_0_Description = value[3];
-                int res = 0;
-                if (int.TryParse(value[4],out res))
-                {
-                    dataList[i].effect_1_MagicCost = int.Parse(value[4]);
-                    dataList[i].effect_1_Description = value[5];
-                }                 
+                dataList[i].count = (int.Parse(value[2]));
+                dataList[i].effect_0_MagicCost = value[3];
+                dataList[i].effect_0_Description = value[4];
+                dataList[i].effect_1_MagicCost = value[5];
+                dataList[i].effect_1_Description = value[6];            
             }
 
             foreach (var i in dataList)

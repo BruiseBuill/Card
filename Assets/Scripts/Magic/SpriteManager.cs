@@ -7,10 +7,9 @@ namespace MagicFighting
 {
  	public class SpriteManager : Single<SpriteManager>
 	{
-        [Header("elementImage")]
-        [SerializeField] List<string> kindList;
+        [Header("KindImage")]
         [SerializeField] List<Sprite> kindSpriteList;
-        Dictionary<string, Sprite> kindDic = new Dictionary<string, Sprite>();
+        Dictionary<MagicCardKind, Sprite> kindDic = new Dictionary<MagicCardKind, Sprite>();
 
         [Header("MagicCardProfile")]
         [SerializeField] List<string> magicCardNameList;
@@ -19,16 +18,16 @@ namespace MagicFighting
 
         private void Awake()
         {
-            for(int i = 0; i < kindList.Count; i++)
+            for(int i = 0; i < (int)MagicCardKind.All; i++)
             {
-                kindDic.Add(kindList[i], kindSpriteList[i]);
+                kindDic.Add((MagicCardKind)i, kindSpriteList[i]);
             }
             for(int i = 0; i < magicCardNameList.Count; i++)
             {
                 magicCardProfileDic.Add(magicCardNameList[i], magicCardProfileList[i]);
             }
         }
-        public Sprite GetKindSprite(string name)
+        public Sprite GetKindSprite(MagicCardKind name)
         {
             return kindDic[name];
         }
