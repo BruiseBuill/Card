@@ -59,7 +59,7 @@ namespace MagicFighting
                 introductionForMPGo.SetActive(false);
                 magicCostText_0.text = cardData.effect_0_MagicCost;
                 descriptionText_0.text = cardData.effect_0_Description;
-                if (cardData.effect_1_MagicCost != null)
+                if (cardData.effect_1_MagicCost != null && cardData.effect_1_MagicCost.Length > 0) 
                 {
                     magicCostText_1.text = cardData.effect_1_MagicCost;
                     descriptionText_1.text = cardData.effect_1_Description;

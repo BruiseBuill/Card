@@ -6,7 +6,7 @@ namespace MagicFighting
 {
     public enum MagicCardKind { Modify, Water, Flare, Grass, Universe, MagicPower, Special,All };
 
-    [CreateAssetMenu(fileName = "SkillCardData", menuName = "Magic/MagicCardData")]
+    [CreateAssetMenu(fileName = "SkillCardData", menuName = "Magic/SkillCardData")]
  	public class SkillCardData : ScriptableObject
 	{
         new public string name;

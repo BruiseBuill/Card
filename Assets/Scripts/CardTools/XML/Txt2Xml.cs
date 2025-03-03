@@ -7,11 +7,12 @@ namespace Card
 {
     public class Txt2Xml:MonoBehaviour
     {
-        [Tooltip("DataPath:。。。/Assets, filePath:/Resource/。。。.txt")]
+        [Tooltip("filePath:/Resource/。。。.txt")]
         [SerializeField] string txtFilePath;
+        [Tooltip("filePath:/Resource/。。。.xlsx")]
         [SerializeField] string excelFilePath;
 
-        [ContextMenu(@"Col:。  Row\n")]
+        [ContextMenu(@"Col:  Row\n  The replace# to \n")]
         public void ConvertTextToExcel()
         {
             var txtPath = Application.dataPath + txtFilePath;
@@ -30,13 +31,13 @@ namespace Card
                 {
                     int col = 1;  // Excel文件的列号也开始于1
 
-                    // 使用冒号和句号作为分隔符
-                    string[] cells = line.Split(new char[] { ':','：','。' }, StringSplitOptions.RemoveEmptyEntries);
+                    // 使用冒号作为分隔符
+                    string[] cells = line.Split(new char[] { ':','：'}, StringSplitOptions.RemoveEmptyEntries);
 
                     foreach (var cell in cells)
                     {
                         // 将文本写入单元格
-                        worksheet.Cells[row, col].Value = cell.Trim();
+                        worksheet.Cells[row, col].Value = cell.Trim().Replace("#", "\n");
                         col++;
                     }
 
@@ -55,7 +56,7 @@ namespace Card
         }
 
         //Divide Col By:"\n"，Row By"\n\n", delete line content when lineLength<=1(Sometimes you need to align column)
-        [ContextMenu(@"Col\n  Row\n\n  Replace# to \n")]
+        [ContextMenu(@"Col\n  Row\n\n  The replace# to \n")]
         public void Convert()
         {
             var txtPath = Application.dataPath + txtFilePath;
@@ -77,7 +78,7 @@ namespace Card
                     }
                     else
                     {
-                        if (line.Length > 1)
+                        if (line.Length > 0)
                             worksheet.Cells[row, col].Value = line.Replace("#", "\n");
                         col++; // 向右移动一列
                     }

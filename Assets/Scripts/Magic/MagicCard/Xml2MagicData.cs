@@ -21,6 +21,7 @@ namespace MagicFighting
             for (int i = 0; i < dataList.Count; i++)
             {
                 value = reader.ReadLine(i + 1, 7);
+                
                 dataList[i].name = value[0];
                 dataList[i].kind = (MagicCardKind)(int.Parse(value[1]));
                 dataList[i].count = (int.Parse(value[2]));

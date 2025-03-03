@@ -39,6 +39,12 @@ namespace MagicFighting
         {
             wait_Interval = new WaitForSeconds(interval);
             screenShot = FindObjectOfType<ScreenShot>();
+            cardPosList = new List<Vector3>()
+            {
+                new Vector3(-offset.x,offset.y),new Vector3(0,offset.y),offset,
+                new Vector3(-offset.x,0),Vector3.zero, new Vector3(offset.x,0),
+                -offset,new Vector3(0,-offset.y),new Vector3(offset.x,-offset.y)
+            };
         }
         #region Load
         [ContextMenu("TestLoadMagicCard")]

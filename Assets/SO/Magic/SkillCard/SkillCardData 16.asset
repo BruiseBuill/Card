@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e0693b7fe55a0408b927897347b9e5, type: 3}
+  m_Name: SkillCardData 16
+  m_EditorClassIdentifier: 
+  name: "\u6D77\u6D8C"
+  kind: 1
+  level: 1
+  mainDescription: "\u5F53\u672C\u56DE\u5408\u5185\u6CA1\u6709\u4F7F\u7528\u4EFB\u4F55\u4E00\u5F20\u624B\u724C\u65F6\uFF0C\u53EF\u4EE5\u6478\u4E24\u5F20\u724C\u7136\u540E\u56DE\u5408\u7ED3\u675F\u3002"
+  additionalDescription: 
