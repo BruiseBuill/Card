@@ -174,79 +174,6 @@ MonoBehaviour:
   y: 0
   borderColor: {r: 0, g: 1, b: 0, a: 1}
   borderWidth: 2
---- !u!1001 &579231742
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 899084675841054198, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 46.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 2240075587001449075, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_Name
-      value: SkillCard
-      objectReference: {fileID: 0}
-    - target: {fileID: 2240075587001449075, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2867520777750338757, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3685937956094211744, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 46.34
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
 --- !u!1 &1082409374
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,9 +224,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 62eda3b6b3fc0954da5138537fd46a1b, type: 3}
   - {fileID: 21300000, guid: c527ca1a86b6d924abad5e8813abc731, type: 3}
   - {fileID: 21300000, guid: fb4d850e97fda4446bce277779ce2360, type: 3}
-  - {fileID: 21300000, guid: e6facc79ef1a8d14994b9f66276e6ae9, type: 3}
-  - {fileID: 21300000, guid: 8d63ee0085c91344a92b4cf2865ff35a, type: 3}
   - {fileID: 21300000, guid: 98480dbc2f70bbb4384cf5b7ddd14a85, type: 3}
+  - {fileID: 21300000, guid: 8d63ee0085c91344a92b4cf2865ff35a, type: 3}
+  - {fileID: 21300000, guid: e6facc79ef1a8d14994b9f66276e6ae9, type: 3}
   magicCardProfileList:
   - {fileID: 21300000, guid: 6022104a53400c04db90e040ed283d4f, type: 3}
   - {fileID: 21300000, guid: ba9c17e8412c4dc45b32e67792f421ce, type: 3}
@@ -310,6 +237,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ad1ac72ace58bdd45a364c2ed9e69450, type: 3}
   - {fileID: 21300000, guid: e9584673dca1bcd4288d910bef20994b, type: 3}
   - {fileID: 21300000, guid: 57786bd81ee2475409dfd76c24538cd2, type: 3}
+  - {fileID: 21300000, guid: 99f58df00ecc955439301347259a4a41, type: 3}
+  - {fileID: 21300000, guid: 4aba0942793b0ea45a1382330b9f3442, type: 3}
+  - {fileID: 21300000, guid: 7330f901363f37047ad9fb2614b81397, type: 3}
+  - {fileID: 21300000, guid: 0500e1c496ce0c646bd49c5368fc5bcc, type: 3}
+  - {fileID: 21300000, guid: 88d8be26834851e43a1de5b3d443f89e, type: 3}
   defaultSprite: {fileID: 21300000, guid: 33dbe880166425744bcb336fce43a59b, type: 3}
 --- !u!114 &1082409377
 MonoBehaviour:
@@ -408,72 +340,7 @@ MonoBehaviour:
   isLoadingSkillCard: 1
   testCardPos: {x: 0, y: 0, z: 0}
   testMagicCardData: {fileID: 11400000, guid: 5ba83d121361958418efe107c2afa2bd, type: 2}
-  testSkillCardData: {fileID: 11400000, guid: ea51c9d8bd4e8be4189e8c7d5b93ae69, type: 2}
---- !u!1001 &1361487064
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4699833971631051897, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8556439157248600501, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_Name
-      value: MainMagicCard
-      objectReference: {fileID: 0}
-    - target: {fileID: 8556439157248600501, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
+  testSkillCardData: {fileID: 11400000, guid: abc7cb8e35b135648aba7ccfe200a1c0, type: 2}
 --- !u!1 &1817820406
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,8 +388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64f7aea3882d04d479afad7039d5409d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txtFilePath: /Resource/Magic/Magic.txt
-  excelFilePath: /Resource/Magic/Magic.xlsx
+  txtFilePath: /Resource/Magic/Skill.txt
+  excelFilePath: /Resource/Magic/Skill.xlsx
 --- !u!4 &1817820409
 Transform:
   m_ObjectHideFlags: 0
