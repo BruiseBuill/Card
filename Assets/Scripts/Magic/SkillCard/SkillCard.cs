@@ -42,6 +42,8 @@ namespace MagicFighting
             descriptionText.text = "         "+cardData.mainDescription;
             additionalDescriptionText.text = "         "+cardData.additionalDescription;
             kindText.text = kindTextDic[cardData.kind];
+
+
         }
     }
 }

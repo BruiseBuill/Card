@@ -17,3 +17,4 @@ MonoBehaviour:
   level: 2
   mainDescription: "\u5143\u7D20\u9650\u5B9A\u53EF\u4EE5\u66FF\u6362\u4E3A\u8349\u5143\u7D20\u3002"
   additionalDescription: 
+  color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0.15686275}

@@ -24,17 +24,16 @@ namespace MagicFighting
                 dataList[i].name = value[0];
                 dataList[i].kind = (MagicCardKind)(int.Parse(value[1]));
                 dataList[i].level = int.Parse(value[2]);
-                dataList[i].mainDescription = value[3];
-                dataList[i].additionalDescription = value[4];
+                dataList[i].mainDescription = value[3].Replace("???", dataList[i].Prefix);
+                dataList[i].additionalDescription = value[4].Replace("???", dataList[i].Prefix);
             }
 
-            foreach (var i in dataList)
+            foreach (var i in dataList) 
             {
                 EditorUtility.SetDirty(i);
             }
             AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
+            AssetDatabase.Refresh(); 
         }
-
     }
 }

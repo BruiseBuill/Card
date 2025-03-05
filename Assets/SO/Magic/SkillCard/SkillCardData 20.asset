@@ -15,5 +15,6 @@ MonoBehaviour:
   name: "\u84B8\u6C7D\u9505\u7089"
   kind: 2
   level: 1
-  mainDescription: "\u6BCF\u4E3B\u52A8\u4F7F\u7528\u4E00\u5F20<s>\u6C34\u5C5E\u6027</s>\u6CD5\u672F\uFF0C\u989D\u5916\u9644\u5E26\u4E00\u70B9<s>\u706B\u5C5E\u6027</s>\u4F24\u5BB3\u3002"
+  mainDescription: "\u6BCF\u4E3B\u52A8\u4F7F\u7528\u4E00\u5F20<u><mark=#2B2B2B1E>\u6C34\u5C5E\u6027</u></mark>\u6CD5\u672F\uFF0C\u989D\u5916\u9644\u5E26\u4E00\u70B9<u><mark=#2B2B2B1E>\u706B\u5C5E\u6027</u></mark>\u4F24\u5BB3\u3002"
   additionalDescription: 
+  color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0.15686275}
