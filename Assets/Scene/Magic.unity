@@ -336,13 +336,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 007c14aa7367eb644a2d3e99a0cfd41d, type: 2}
   magicCardPrefab: {fileID: 8556439157248600501, guid: fcb9fb4be05cf11439b3c89f8ec3d6e5, type: 3}
   skillCardPrefab: {fileID: 2240075587001449075, guid: 6b39f1f64fb9e3f4b94534ede7617407, type: 3}
+  magicCardBackPrefab: {fileID: 2294413884414632309, guid: e121629ccedf52b4ea535f295a8c41e7, type: 3}
+  skillCardBackPrefab: {fileID: 1127869859522953528, guid: 694e4527605f25d45ba258e6f342cf32, type: 3}
+  deathConsciencePrefab: {fileID: 529243446990704275, guid: 9d681ebf57a914a4ba8514cb1ad5394d, type: 3}
+  deathConscienceBackPrefab: {fileID: 3398841585339430699, guid: eac0cffb8c7497e4a809232346a213b4, type: 3}
+  magicBarPrefab: {fileID: 3436570508479171179, guid: fcb6c90edba71104ebc09097598c1519, type: 3}
   interval: 1
-  offset: {x: 6.3, y: 8.8, z: 0}
-  index: 0
+  index: 9
   subIndex: 0
-  posIndex: 0
+  posIndex: 9
   isLoadingSkillCard: 1
-  testCardPos: {x: 0, y: 0, z: 0}
+  testIndex: 3
   testMagicCardData: {fileID: 11400000, guid: 5ba83d121361958418efe107c2afa2bd, type: 2}
   testSkillCardData: {fileID: 11400000, guid: abc7cb8e35b135648aba7ccfe200a1c0, type: 2}
 --- !u!1 &1817820406

@@ -14,6 +14,11 @@ namespace MagicFighting
         [SerializeField] List<SkillCardData> skillCardDataList;
         [SerializeField] GameObject magicCardPrefab;
         [SerializeField] GameObject skillCardPrefab;
+        [SerializeField] GameObject magicCardBackPrefab;
+        [SerializeField] GameObject skillCardBackPrefab;
+        [SerializeField] GameObject deathConsciencePrefab;
+        [SerializeField] GameObject deathConscienceBackPrefab;
+        [SerializeField] GameObject magicBarPrefab;
 
         [Header("Shot")]
         ScreenShot screenShot;
@@ -21,17 +26,32 @@ namespace MagicFighting
         WaitForSeconds wait_Interval;
 
         [Header("Alignment")]
-        [SerializeField] Vector3 offset;
+        static Vector3 offset = new Vector3(6.3f, 8.8f, 0);
         [SerializeField] protected int index;
         [SerializeField] protected int subIndex;
         [SerializeField] protected int posIndex;
         [SerializeField] bool isLoadingSkillCard;
-        List<Vector3> cardPosList = new List<Vector3>();
+        static List<Vector3> cardPosList = new List<Vector3>() { new Vector3(-offset.x,offset.y),new Vector3(0,offset.y),offset,
+                new Vector3(-offset.x,0),Vector3.zero, new Vector3(offset.x,0),
+                -offset,new Vector3(0,-offset.y),new Vector3(offset.x,-offset.y)};
 
         [Header("Test")]
-        [SerializeField] Vector3 testCardPos;
+        [SerializeField] int testIndex;
+        int TestIndex
+        {
+            get 
+            {
+                var a = testIndex;
+                if (cardPosList.Count != 0)
+                {
+                    testIndex = (testIndex + 1) % cardPosList.Count;
+                }                
+                return a;
+            }
+        }
         [SerializeField] MagicCardData testMagicCardData;
         [SerializeField] SkillCardData testSkillCardData;
+        
 
         List<GameObject> cardGoList = new List<GameObject>();
 
@@ -39,27 +59,22 @@ namespace MagicFighting
         {
             wait_Interval = new WaitForSeconds(interval);
             screenShot = FindObjectOfType<ScreenShot>();
-            cardPosList = new List<Vector3>()
-            {
-                new Vector3(-offset.x,offset.y),new Vector3(0,offset.y),offset,
-                new Vector3(-offset.x,0),Vector3.zero, new Vector3(offset.x,0),
-                -offset,new Vector3(0,-offset.y),new Vector3(offset.x,-offset.y)
-            };
         }
         #region Load
         [ContextMenu("TestLoadMagicCard")]
         protected void TestLoadMagic()
         {
-            LoadMagicCard(testCardPos, testMagicCardData);
+            LoadMagicCard(cardPosList[TestIndex], testMagicCardData);
+            
         }
         [ContextMenu("TestLoadSkillCard")]
         protected void TestLoadSkill()
         {
-            LoadSkillCard(testCardPos, testSkillCardData);
+            LoadSkillCard(cardPosList[TestIndex], testSkillCardData);
         }
         public void LoadMagicCard(Vector3 cardPos, MagicCardData cardData)
         {
-            GameObject cardGo = Instantiate(magicCardPrefab, testCardPos, Quaternion.identity);
+            GameObject cardGo = Instantiate(magicCardPrefab, cardPos, Quaternion.identity);
             cardGo.transform.position = cardPos;
             cardGo.GetComponent<MagicCard>().SetData(cardData);
             cardGo.GetComponent<MagicCard>().Load();
@@ -67,14 +82,39 @@ namespace MagicFighting
         }
         public void LoadSkillCard(Vector3 cardPos, SkillCardData cardData)
         {
-            GameObject cardGo = Instantiate(skillCardPrefab, testCardPos, Quaternion.identity);
+            GameObject cardGo = Instantiate(skillCardPrefab, cardPos, Quaternion.identity);
             cardGo.transform.position = cardPos;
             cardGo.GetComponent<SkillCard>().SetData(cardData);
             cardGo.GetComponent<SkillCard>().Load();
             cardGoList.Add(cardGo);
         }
-        #endregion  
-        
+        [ContextMenu("TestLoadMagicCardBack")]
+        protected void TestLoadMagicCardBack()
+        {
+            Instantiate(magicCardBackPrefab, cardPosList[TestIndex], Quaternion.identity);
+        }
+        [ContextMenu("TestLoadSkillCardBack")]
+        protected void TestLoadSkillCardBack()
+        {
+            Instantiate(skillCardBackPrefab, cardPosList[TestIndex], Quaternion.identity);
+        }
+        [ContextMenu("TestLoadDeathConscience")]
+        protected void TestLoadDeathConscience()
+        {
+            Instantiate(deathConsciencePrefab, cardPosList[TestIndex], Quaternion.identity);
+        }
+        [ContextMenu("TestLoadDeathConscienceBack")]
+        protected void TestLoadDeathConscienceBack()
+        {
+            Instantiate(deathConscienceBackPrefab, cardPosList[TestIndex], Quaternion.identity);
+        }
+        [ContextMenu("TestLoadMagicBar")]
+        protected void TestLoadMagicBar()
+        {
+            Instantiate(magicBarPrefab, cardPosList[TestIndex], Quaternion.identity);
+        }
+        #endregion
+
         void LoadNine()
         {
             if (isLoadingSkillCard)
