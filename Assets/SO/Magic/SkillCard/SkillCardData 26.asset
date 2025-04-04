@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e0693b7fe55a0408b927897347b9e5, type: 3}
   m_Name: SkillCardData 26
   m_EditorClassIdentifier: 
-  name: "\u6D41\u706B"
+  name: "\u7194\u5CA9\u4E4B\u7532"
   kind: 2
   level: 1
-  mainDescription: "\u88AB\u52A8\u65F6\uFF0C\u53EF\u51CF\u5C11\u4E00\u70B9\u6CD5\u529B\uFF0C\u62B5\u6321\u4E00\u70B9<u><mark=#2B2B2B1E>\u706B\u5C5E\u6027</u></mark>\u6216<u><mark=#2B2B2B1E>\u4E07\u80FD\u5C5E\u6027</u></mark>\u4F24\u5BB3\u3002"
+  mainDescription: "\u88AB\u52A8\u65F6\uFF0C\u53EF\u4EE5\u9009\u62E9\u5F03\u6389\u4EFB\u610F\u5F20\u624B\u724C\uFF0C\u7136\u540E\u83B7\u5F97\uFF08\u5F03\u724C\u6570-1\uFF09\u7684\u62A4\u76FE\u503C\u3002\u5982\u679C\u53EA\u5269\u4E00\u5F20\u624B\u724C\uFF0C\u5219\u5F03\u6389\u4E4B\u540E\u5FC5\u5B9A\u80FD\u83B7\u5F971\u70B9\u62A4\u76FE\u503C\u3002"
   additionalDescription: 
   color: {r: 0.98149985, g: 1, b: 0.1830188, a: 0.1764706}

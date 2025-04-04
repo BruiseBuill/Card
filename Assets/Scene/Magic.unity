@@ -229,7 +229,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 0d83c26303882c3468357cc6da0e4882, type: 3}
   magicCardProfileList:
   - {fileID: 21300000, guid: 4ab86212025b4cc4c904182160bdbf47, type: 3}
-  - {fileID: 21300000, guid: dd03a2db5a8265347978ab5f8e961f23, type: 3}
+  - {fileID: 21300000, guid: c7c704fda9256fc40beabd0d46be72cc, type: 3}
   - {fileID: 21300000, guid: 23bbe067a67189e4e827fe096c50764b, type: 3}
   - {fileID: 21300000, guid: 6022104a53400c04db90e040ed283d4f, type: 3}
   - {fileID: 21300000, guid: ba9c17e8412c4dc45b32e67792f421ce, type: 3}
@@ -246,6 +246,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ad1ac72ace58bdd45a364c2ed9e69450, type: 3}
   - {fileID: 21300000, guid: e9584673dca1bcd4288d910bef20994b, type: 3}
   - {fileID: 21300000, guid: 57786bd81ee2475409dfd76c24538cd2, type: 3}
+  - {fileID: 21300000, guid: a5bed81b78a2bf04a8dd2fc4ba90df65, type: 3}
   defaultSprite: {fileID: 21300000, guid: 33dbe880166425744bcb336fce43a59b, type: 3}
 --- !u!114 &1082409377
 MonoBehaviour:
@@ -278,6 +279,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f748b02b4c46894aa03830a71315a4b, type: 2}
   - {fileID: 11400000, guid: 6b64227dcb5cc974cbe1042108e9e4bb, type: 2}
   - {fileID: 11400000, guid: 08c45dfb037efd24ca8a259fd7694c77, type: 2}
+  - {fileID: 11400000, guid: 9829a83a6621d1140baa5704b252e0a6, type: 2}
   skillCardDataList:
   - {fileID: 11400000, guid: a58098e8c1dd6894380441b0cf0227cd, type: 2}
   - {fileID: 11400000, guid: ea51c9d8bd4e8be4189e8c7d5b93ae69, type: 2}
@@ -513,6 +515,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f748b02b4c46894aa03830a71315a4b, type: 2}
   - {fileID: 11400000, guid: 6b64227dcb5cc974cbe1042108e9e4bb, type: 2}
   - {fileID: 11400000, guid: 08c45dfb037efd24ca8a259fd7694c77, type: 2}
+  - {fileID: 11400000, guid: 9829a83a6621d1140baa5704b252e0a6, type: 2}
   xmlFilePath: /Resource/Magic/Magic.xlsx
 --- !u!1 &1842114304
 GameObject:

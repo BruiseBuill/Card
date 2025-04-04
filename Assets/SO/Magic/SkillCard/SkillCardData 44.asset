@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e0693b7fe55a0408b927897347b9e5, type: 3}
   m_Name: SkillCardData 44
   m_EditorClassIdentifier: 
-  name: "\u7ED3\u6676"
+  name: "\u661F\u8FB0"
   kind: 5
   level: 1
-  mainDescription: "\u589E\u52A0\u56DB\u70B9\u6CD5\u529B\u503C\u4E0A\u9650\u3002"
+  mainDescription: "\u6BCF\u4F7F\u7528\u4E00\u5F20\u6CD5\u529B\u724C\uFF0C\u989D\u5916\u6062\u590D\u4E00\u70B9\u6CD5\u529B\u503C\u3002"
   additionalDescription: 
   color: {r: 0.98149985, g: 1, b: 0.1830188, a: 0.1764706}

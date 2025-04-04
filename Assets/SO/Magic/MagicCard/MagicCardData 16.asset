@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02018a8cce2d6648a8dc45d5618db4d, type: 3}
   m_Name: MagicCardData 16
   m_EditorClassIdentifier: 
-  name: "\u6108\u5408"
+  name: "\u5DEB\u672F\u54CD\u6307"
   kind: 6
   count: 1
-  effect_0_MagicCost: 1
+  effect_0_MagicCost: 2
   effect_1_MagicCost: 
-  effect_0_Description: "\u4E3B\u52A8\u4F7F\u7528\uFF0C\u6062\u590D\u4E00\u70B9\u751F\u547D\u503C\u3002"
+  effect_0_Description: "\u88AB\u52A8\u4F7F\u7528\uFF0C\u6253\u65AD\u76EE\u6807\u7684\u4E00\u5F20\u5143\u7D20\u6CD5\u672F\u724C\u3002"
   effect_1_Description: 
