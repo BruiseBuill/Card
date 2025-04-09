@@ -86,7 +86,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8414560960067169893}
   - component: {fileID: 7204944392151764297}
-  - component: {fileID: 8042238156414248518}
   m_Layer: 0
   m_Name: MagicCardBack
   m_TagString: Untagged
@@ -109,7 +108,7 @@ Transform:
   - {fileID: 5249032177987695591}
   - {fileID: 9202529240272103736}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7204944392151764297
 SpriteRenderer:
@@ -163,31 +162,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8042238156414248518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2294413884414632309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e233b05e37e3994ca39fc6fdd7899f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardData: {fileID: 11400000, guid: 5ba83d121361958418efe107c2afa2bd, type: 2}
-  nameText: {fileID: 0}
-  kindImage: {fileID: 0}
-  profileImage: {fileID: 0}
-  introductionForNormalGo: {fileID: 0}
-  magicCostText_0: {fileID: 0}
-  descriptionText_0: {fileID: 0}
-  costObject_1: {fileID: 0}
-  magicCostText_1: {fileID: 0}
-  descriptionText_1: {fileID: 0}
-  introductionForMPGo: {fileID: 0}
-  mpCardDescription: {fileID: 0}
-  kindText: {fileID: 0}
 --- !u!1 &2645352184102117939
 GameObject:
   m_ObjectHideFlags: 0

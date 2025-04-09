@@ -39,11 +39,9 @@ namespace MagicFighting
             nameText.text = cardData.name;
             kindImage.sprite = SpriteManager.Instance().GetKindSprite(cardData.kind);
             levelText.text = cardData.level.ToString();
-            descriptionText.text = "         "+cardData.mainDescription;
-            additionalDescriptionText.text = "         "+cardData.additionalDescription;
+            descriptionText.text = "          "+cardData.mainDescription;
+            additionalDescriptionText.text = cardData.additionalDescription;
             kindText.text = kindTextDic[cardData.kind];
-
-
         }
     }
 }
