@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 15e702ebd6c7ff04384f787062e6854d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - TsangerShuYuanT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c1b99ab7bf166f3469e6d74f5726a4c8, type: 3}
+  - {fileID: 12800000, guid: d325bab017b01d04bb922db31431b4ec, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
