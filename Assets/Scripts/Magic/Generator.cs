@@ -151,7 +151,7 @@ namespace MagicFighting
             }
 
         }
-        [ContextMenu("Shot")]
+        [ContextMenu("ShotAll")]
         public void Shot()
         {
             isLoadingSkillCard = true;
