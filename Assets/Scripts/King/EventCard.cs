@@ -15,14 +15,13 @@ namespace King
         public override void SetData(object data)
         {
             this.data = data as EventCardData;
-            nameText.text = this.data.name;
-            introductionText.text = this.data.introduction;
         }
 
         [ContextMenu("Load")]
         public override void Load()
         {
-            throw new System.NotImplementedException();
+            nameText.text = this.data.name;
+            introductionText.text = this.data.introduction;
         }       
     }
 }
