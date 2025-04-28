@@ -8,18 +8,10 @@ namespace Card
 {
     public class XmlReader : MonoBehaviour
     {
-        [Header("Test")]
-        [Tooltip("filePath:/Resource/¡£¡£¡£.xlsx")]
-        [SerializeField] string filePath;
-
-        
-        [Tooltip("Position in excel is count from 1")]
-        [SerializeField] Vector2Int readGridPos;
-        [SerializeField] string path;
+        string path;
 
         public void SetFilePath(string filePath)
         {
-            this.filePath = filePath;
             path = Application.dataPath + filePath;
         }
         public string Read(int i, int j)
@@ -82,13 +74,6 @@ namespace Card
                 return null;
             }
         }
-        [ContextMenu("Read")]
-        void EditorRead()
-        {
-            SetFilePath(filePath);
-            Debug.Log(Read(readGridPos.x, readGridPos.y));
-        }
-
     }
 }
 

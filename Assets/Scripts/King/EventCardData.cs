@@ -6,7 +6,7 @@ using UnityEngine;
 namespace King
 {
     [CreateAssetMenu(fileName = "EventCardData", menuName = "King/EventCardData")]
-    public class EventCardData : MonoBehaviour
+    public class EventCardData : ScriptableObject
 	{
         new public string name;
 
