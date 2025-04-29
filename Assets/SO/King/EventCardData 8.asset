@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d88e9a56bf45be4b9a162e9e44f019a, type: 3}
   m_Name: EventCardData 8
   m_EditorClassIdentifier: 
-  name: 
-  count: 0
-  introduction: 
+  name: "\u5927\u8D66\u5929\u4E0B"
+  count: 1
+  introduction: "\u672C\u56DE\u5408\u7684\u63A5\u89C1\u9636\u6BB5\uFF0C\u9664\u4E86\u523A\u6740\u548C\u653F\u53D8\u4EE5\u5916\uFF0C\u88AB\u641C\u67E5\u5BFC\u81F4\u6263\u94B1\u65F6\u90FD\u4E0D\u4F1A\u6263\u94B1\u3002"

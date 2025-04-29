@@ -8,7 +8,7 @@ namespace King
 {
 	public class EventCard : BaseCard
 	{
-        EventCardData data;
+        [SerializeField] EventCardData data;
         [SerializeField] TextMeshProUGUI nameText;
         [SerializeField] TextMeshProUGUI introductionText;
 

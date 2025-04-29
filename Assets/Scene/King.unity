@@ -152,10 +152,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae270bdaf22d5848abcd91e8bbe17f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testPrefab: {fileID: 2090103482185114043, guid: 80f048c6a2f1e0f4793dbeae57eb433d, type: 3}
-  testIndex: 2
-  eventDataList: []
-  characterData: {fileID: 0}
+  testPrefab: {fileID: 8753335634546653785, guid: dcae3bf6905eeb342869e3c049537834, type: 3}
+  testIndex: 3
+  eventDataList:
+  - {fileID: 11400000, guid: 3f1d618a9bf5eb94595137d9f389b145, type: 2}
+  - {fileID: 11400000, guid: 16cba68358575b84fbf46756675becbe, type: 2}
+  - {fileID: 11400000, guid: 4aa302eae56f4204ab4ef09b0eeb7e1f, type: 2}
+  - {fileID: 11400000, guid: 9148217b3a88d3e4591d2405717ab04e, type: 2}
+  - {fileID: 11400000, guid: 3ee2fa97c72192c44a0f1892643e753f, type: 2}
+  - {fileID: 11400000, guid: 7817a593cddecc94db4e52f23fe7bcd6, type: 2}
+  - {fileID: 11400000, guid: 7ca1a4578625a3241b90380b779d0d8b, type: 2}
+  - {fileID: 11400000, guid: 7bf4515e69e85404f89ef43b0c57caca, type: 2}
+  - {fileID: 11400000, guid: 9d86e3bdd45fc6a4d82c5d25f1996fbf, type: 2}
+  - {fileID: 11400000, guid: ce21a0bfdc0d723408041818c15bc947, type: 2}
+  characterData: {fileID: 11400000, guid: d71df6174e8cc0c4295c1ac3096a242f, type: 2}
   isLoadingCharacter: 0
   index: 0
   subIndex: 0
