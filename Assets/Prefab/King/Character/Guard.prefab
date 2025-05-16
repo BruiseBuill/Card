@@ -58,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3261002198469320655, guid: 88afce77aca04544b88c5d731ecbfeeb, type: 3}
       propertyPath: m_Name
-      value: Assassin
+      value: Guard
       objectReference: {fileID: 0}
     - target: {fileID: 5313618671637169761, guid: 88afce77aca04544b88c5d731ecbfeeb, type: 3}
       propertyPath: m_text
@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 36b0328f53685e147a8f5e3137c3352e, type: 3}
+    - target: {fileID: 8253298800967064615, guid: 88afce77aca04544b88c5d731ecbfeeb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
