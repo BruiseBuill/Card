@@ -59,6 +59,6 @@ Material:
     - _roundRadius: 0.05
     m_Colors:
     - _color: {r: 1, g: 1, b: 1, a: 0}
-    - _lineWidth: {r: 0.011, g: 0.008, b: 0, a: 0}
+    - _lineWidth: {r: 0.0056, g: 0.004, b: 0, a: 0}
     - _size: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
