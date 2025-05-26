@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5737344929818944287
+--- !u!114 &-6822047014766613368
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hoop 1
-  m_Shader: {fileID: -6465566751694194690, guid: 650528d623f7e0941a0ba63e12297523, type: 3}
+  m_Name: CharacteProfile
+  m_Shader: {fileID: -6465566751694194690, guid: cd9a5ac592583f14ba43e41612383d84, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -54,9 +54,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _color: 0
-    - _innerRadius: 0.88
-    - _outerRadius: 1
-    m_Colors:
-    - _color: {r: 1, g: 1, b: 1, a: 0}
+    - _Const_One: 1
+    - _Const_Two: 2
+    - _Const_half: 0.5
+    - _InnerDiameter: 1.38
+    - _OutterDiameter: 1.15
+    m_Colors: []
   m_BuildTextureStacks: []
