@@ -2116,9 +2116,9 @@ RectTransform:
   - {fileID: 2057265442064340115}
   - {fileID: 7392557143277207954}
   - {fileID: 4777426247590756865}
-  - {fileID: 881998681095290918}
   - {fileID: 5848105679413607189}
   - {fileID: 813102298116634408}
+  - {fileID: 881998681095290918}
   m_Father: {fileID: 8603481639406755244}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2335,7 +2335,7 @@ Transform:
   m_Children:
   - {fileID: 8991218611830911013}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &536280783509335584
 SpriteRenderer:
