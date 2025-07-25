@@ -7,7 +7,7 @@ using UnityEngine;
 namespace AnimalParty
 {
     [RequireComponent(typeof(ScreenShot))]
-    public class Generator : Single<Generator>
+    public class Generator : BaseGenerator
 	{
         [SerializeField] List<CharacterCardData> characterDataList;
         [SerializeField] List<PlayCardData> playDataList;
@@ -22,54 +22,23 @@ namespace AnimalParty
         [SerializeField] protected int subIndex;
         [SerializeField] protected int posIndex;
         [SerializeField] bool isLoadingCharacter;
-        List<Vector3> cardPosList = new List<Vector3>();
 
         [Header("Shot")]
-        ScreenShot screenShot;
         [SerializeField] float interval;
         WaitForSeconds wait_Interval;
 
-        [Header("Test")]
-        [SerializeField] Vector3 testCardPos;
-        [SerializeField] CharacterCardData testCharacterData;
-        [SerializeField] PlayCardData testPlayData;
-        [SerializeField] HumanCardData testHumanData;
-        List<GameObject> cardGoList = new List<GameObject>();
-
         Dictionary<string, Color> humanColorDic = new Dictionary<string, Color>();
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             wait_Interval = new WaitForSeconds(interval);
-            screenShot = GetComponent<ScreenShot>();
-
-            cardPosList = new List<Vector3>()
-            {
-                new Vector3(-offset.x,offset.y),new Vector3(0,offset.y),offset,
-                new Vector3(-offset.x,0),Vector3.zero, new Vector3(offset.x,0),
-                -offset,new Vector3(0,-offset.y),new Vector3(offset.x,-offset.y)
-            };
             for (int i = 0; i < humanDataList.Count; i++)
             {
                 humanColorDic.Add(humanDataList[i].name, humanDataList[i].color);
             }
         }
         #region Load
-        [ContextMenu("TestLoadCharacterCard")]
-        protected void TestLoadCharacter()
-        {
-            LoadCharacter(testCardPos, testCharacterData);
-        }
-        [ContextMenu("TestLoadPlayCard")]
-        protected void TestLoadPlay()
-        {
-            LoadPlay(testCardPos, testPlayData);
-        }
-        [ContextMenu("TestLoadHumanCard")]
-        protected void TestLoadHuman()
-        {
-            LoadHuman(testCardPos, testHumanData);
-        }
 
         void LoadCharacter(Vector3 cardPos,CharacterCardData characterData)
         {
