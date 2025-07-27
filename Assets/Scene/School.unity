@@ -2054,9 +2054,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8af817ef81bcd9446a7e5b4538d22fdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filePath: /Resource/Card_Character.xlsx
-  readGridPos: {x: 1, y: 1}
-  path: E:/Unity_Card/Assets/Resource/Card_Character.xlsx
 --- !u!114 &1025979682
 MonoBehaviour:
   m_ObjectHideFlags: 0
