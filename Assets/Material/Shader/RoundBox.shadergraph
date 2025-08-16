@@ -11,6 +11,9 @@
         },
         {
             "m_Id": "69ce0c44fff040c9b677dc0ebbe18fd0"
+        },
+        {
+            "m_Id": "291ea851c10540d593a00c58cdfe0bb5"
         }
     ],
     "m_Keywords": [],
@@ -391,6 +394,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "291ea851c10540d593a00c58cdfe0bb5",
+    "m_Guid": {
+        "m_GuidSerialized": "b4666431-333c-4038-87cc-2e9a0c25b649"
+    },
+    "m_Name": "_ColorMask",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "_ColorMask",
+    "m_DefaultReferenceName": "_ColorMask",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "2c07a0f73a1545ab9a7a5ad41bb1d008",
@@ -439,6 +470,12 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalSpriteUnlitSubTarget",
+    "m_ObjectId": "322f0e6023ad4bb9be418e7cb3049722"
 }
 
 {
@@ -589,12 +626,6 @@
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_BareResource": false
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalSpriteUnlitSubTarget",
-    "m_ObjectId": "65b265aacf2b45da8c0e53bd7542e69b"
 }
 
 {
@@ -817,6 +848,9 @@
         },
         {
             "m_Id": "69ce0c44fff040c9b677dc0ebbe18fd0"
+        },
+        {
+            "m_Id": "291ea851c10540d593a00c58cdfe0bb5"
         }
     ]
 }
@@ -930,9 +964,9 @@
     "m_ObjectId": "bbc58558774c48bdb771f93c5df6b71e",
     "m_Datas": [],
     "m_ActiveSubTarget": {
-        "m_Id": "65b265aacf2b45da8c0e53bd7542e69b"
+        "m_Id": "322f0e6023ad4bb9be418e7cb3049722"
     },
-    "m_AllowMaterialOverride": false,
+    "m_AllowMaterialOverride": true,
     "m_SurfaceType": 0,
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
