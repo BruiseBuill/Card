@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 0 4
   m_EditorClassIdentifier: 
   name: e
-  cost: 3
-  description: "\u62A4\u76FE\n\u52A0\u901F"
+  cost: 4
+  description: "\u62A4\u76FE\n\u8FDE\u51FB\n\u6B64\u6CD5\u672F\u7684\u51B7\u5374\u65F6\u95F4\u51CF\u4E00"
