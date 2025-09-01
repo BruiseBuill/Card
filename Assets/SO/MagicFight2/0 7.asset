@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d64953c98a13648b526023d6758021, type: 3}
   m_Name: 0 7
   m_EditorClassIdentifier: 
-  name: h
-  cost: 5
-  description: "\u91CD\u51FB\n\u8FDE\u51FB"
+  name: "\u98DE\u53F6\u8FDE\u51FB"
+  power: 1
+  coolDown: 3
+  description: "<sprite=0>\u53CC\u53D1"

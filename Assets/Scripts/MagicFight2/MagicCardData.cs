@@ -8,7 +8,8 @@ namespace MagicFighting2
     public class MagicCardData : ScriptableObject
 	{
         new public string name;
-        public string cost;
+        public string power;
+        public string coolDown;
         public string description;
     }
 }

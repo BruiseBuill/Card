@@ -11,7 +11,8 @@ namespace MagicFighting2
         [SerializeField] MagicCardData cardData;
 
         public TextMeshProUGUI nameText;
-        public TextMeshProUGUI costText;
+        public TextMeshProUGUI powerText;
+        public TextMeshProUGUI coolDownText;
         public TextMeshProUGUI descriptionText;
 
         public void SetData(MagicCardData cardData)
@@ -22,7 +23,8 @@ namespace MagicFighting2
         public void Load()
         {
             nameText.text = cardData.name;
-            costText.text = cardData.cost;
+            powerText.text=cardData.power;
+            coolDownText.text = cardData.coolDown;
             descriptionText.text = cardData.description;
         }
     }
