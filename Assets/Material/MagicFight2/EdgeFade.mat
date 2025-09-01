@@ -60,6 +60,6 @@ Material:
     - _InnerDiameter: 0
     - _OutterDiameter: 1
     - _ifColorFade: 0
-    - _offset: 0.3
+    - _offset: 0.1
     m_Colors: []
   m_BuildTextureStacks: []
