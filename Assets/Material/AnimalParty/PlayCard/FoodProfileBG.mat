@@ -45,7 +45,9 @@ Material:
     - _Const_Two: 2
     - _Const_half: 0.5
     - _InnerDiameter: 0
-    - _OutterDiameter: 1
+    - _OutterDiameter: 0.95
+    - _ifColorFade: 1
+    - _offset: 0.2
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &3269186920081794519
