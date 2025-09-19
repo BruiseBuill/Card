@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d64953c98a13648b526023d6758021, type: 3}
   m_Name: 0 35
   m_EditorClassIdentifier: 
-  name: "\u5730\u6CE2"
-  power: 5
-  coolDown: 2
-  description: "<sprite=0>\u8FDB\u653B\u529B\u91CF+2"
+  name: "\u706B\u707E"
+  power: 8
+  coolDown: 4
+  description: "<sprite=0>\u5149\u73AF\uFF1A\u4F7F\u6CD5\u672F\u9644\u5E26\u8FDB\u653B\u529B\u91CF+1\n<sprite=0>\u5149\u73AF\uFF1A\u4F7F\u6CD5\u672F\u9644\u5E26\u8FDB\u653B\u529B\u91CF+1"

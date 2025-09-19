@@ -15,4 +15,4 @@ MonoBehaviour:
   name: "\u66B4\u98CE\u96EA"
   power: 1
   coolDown: 4
-  description: "<sprite=0>\u533A\u57DF\u51CF\u901F"
+  description: "<sprite=0>\u52A0\u901F\n<sprite=0>\u533A\u57DF\u51CF\u901F"
