@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8177a4a8c505947bc83f6c235e4e8a, type: 3}
+  m_Name: CardData 2
+  m_EditorClassIdentifier: 
+  index: 03
+  name: "\u718A"
+  attack: 4
+  defense: 5
+  introduction: "\u6253\u51FA\u65F6\uFF0C\u5BF9\u65B9\u9700\u8981\u7ACB\u5373\u5F03\u6389\u4E00\u5F20\u624B\u724C"
+  valueEffect: '<sprite=0>+2
+
+    <sprite=1>-1'
+  profile: {fileID: 21300000, guid: 97edcd62ed19c9a40b879af5b0127d73, type: 3}

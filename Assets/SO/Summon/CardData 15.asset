@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8177a4a8c505947bc83f6c235e4e8a, type: 3}
+  m_Name: CardData 15
+  m_EditorClassIdentifier: 
+  index: 16
+  name: "\u732B"
+  attack: 2
+  defense: 2
+  introduction: "\u6B7B\u4EA1\u65F6\uFF0C\u53EF\u4EE5\u590D\u6D3B\u5E76\u8FD4\u56DE\u4F60\u624B\u724C\u4E2D\uFF08\u5931\u53BB\u5F3A\u5316\uFF09\uFF0C\u4F46\u65E0\u6CD5\u7ACB\u5373\u6253\u51FA"
+  valueEffect: <sprite=0>+1
+  profile: {fileID: 21300000, guid: 26dd870ea3f0ecb4aa039c2d1d69af4a, type: 3}
