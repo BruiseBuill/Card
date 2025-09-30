@@ -16,7 +16,7 @@ MonoBehaviour:
   name: "\u8759\u8760"
   attack: 1
   defense: 2
-  introduction: "\u200C\u6253\u51FA\u65F6\uFF0C\u5DF1\u65B9\u6CD5\u5E08\u7684\u751F\u547D\u503C\u53EF\u4EE5\u53D8\u4E3A
-    \u5BF9\u65B9\u6CD5\u5E08\u7684\u751F\u547D\u503C\u51CF\u4E00"
+  introduction: "\u6253\u51FA\u65F6\uFF0C\u5DF1\u65B9\u6CD5\u5E08\u7684\u751F\u547D\u503C\u53EF\u4EE5\u53D8\u4E3A\u4E0E
+    \u5BF9\u65B9\u6CD5\u5E08\u7684\u751F\u547D\u503C\u76F8\u7B49"
   valueEffect: <sprite=1>+1
   profile: {fileID: 21300000, guid: 914ff52c48f9e6245ad07c15d0290eff, type: 3}
