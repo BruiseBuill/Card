@@ -329,6 +329,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5289b597b588b9342a34c106b3e08661, type: 2}
   - {fileID: 11400000, guid: a7e81a1b958574e42980e6214dfd5649, type: 2}
   - {fileID: 11400000, guid: a55136765c3d26747bfaa8e88366189e, type: 2}
+  - {fileID: 11400000, guid: 26e5d48dd92e6d344b42a168bb223b02, type: 2}
+  - {fileID: 11400000, guid: 3f91d9d0ea578f04888e62b5e7197080, type: 2}
+  - {fileID: 11400000, guid: 922c9661214345e498d7195d2bc301b7, type: 2}
+  - {fileID: 11400000, guid: b87d40d74baed0d4187d8b55bfdf0a34, type: 2}
   testPrefab: {fileID: 3354882952785776756, guid: 7c286a8c8a887ec4f9c47725b6f9f8e1, type: 3}
   testIndex: 0
   interval: 0.9
@@ -375,6 +379,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f65d65111544c5c4387d8a2f11510c9f, type: 3}
   - {fileID: 21300000, guid: c462f3f6c02bbbc469824f9c813e2a1e, type: 3}
   - {fileID: 21300000, guid: f919c179d77f6f84cba54cf0b301ae05, type: 3}
+  - {fileID: 21300000, guid: 1ae9563cc8cae9147b00ce24df6e9fa3, type: 3}
+  - {fileID: 21300000, guid: 22a2914806941bc47827050db47f5b8e, type: 3}
+  - {fileID: 21300000, guid: 7838a705cb9715e4988f6b71d69539e1, type: 3}
+  - {fileID: 21300000, guid: cd8bbac59d4d8a84a823a251b8669640, type: 3}
 --- !u!1 &1325771235
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325771239}
   - component: {fileID: 1325771237}
+  - component: {fileID: 1325771241}
   - component: {fileID: 1325771240}
   m_Layer: 0
   m_Name: Excel
@@ -475,7 +484,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5289b597b588b9342a34c106b3e08661, type: 2}
   - {fileID: 11400000, guid: a7e81a1b958574e42980e6214dfd5649, type: 2}
   - {fileID: 11400000, guid: a55136765c3d26747bfaa8e88366189e, type: 2}
+  - {fileID: 11400000, guid: 26e5d48dd92e6d344b42a168bb223b02, type: 2}
+  - {fileID: 11400000, guid: 3f91d9d0ea578f04888e62b5e7197080, type: 2}
+  - {fileID: 11400000, guid: 922c9661214345e498d7195d2bc301b7, type: 2}
+  - {fileID: 11400000, guid: b87d40d74baed0d4187d8b55bfdf0a34, type: 2}
   xmlFilePath: /Resource/Summon/PicList.xlsx
+--- !u!114 &1325771241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325771235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f7aea3882d04d479afad7039d5409d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtFilePath: /Resource/Summon/Ability.txt
+  excelFilePath: /Resource/Summon/Ability.xlsx
 --- !u!1 &1842114304
 GameObject:
   m_ObjectHideFlags: 0

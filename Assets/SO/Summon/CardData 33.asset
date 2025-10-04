@@ -15,7 +15,7 @@ MonoBehaviour:
   index: 34
   name: "\u8179\u86C7"
   attack: 2
-  defense: 5
-  introduction: "\u653B\u51FB\u65F6\uFF0C\u88AB\u653B\u51FB\u7684\u76EE\u6807\u7ACB\u5373\u6B7B\u4EA1\uFF08\u4F46\u81EA\u8EAB\u4ECD\u7136\u4F1A\u53D7\u5230\u53CD\u51FB\uFF09"
+  defense: 4
+  introduction: "\u653B\u51FB\u65F6\uFF0C\u88AB\u653B\u51FB\u7684\u76EE\u6807\u7ACB\u5373\u6B7B\u4EA1\uFF08\u5373\u4F7F\u81EA\u8EAB\u88AB\u6253\u8D25\uFF09"
   valueEffect: <sprite=1>+1
   profile: {fileID: 21300000, guid: 48f8452f743ad6449bd8ae6801f227e7, type: 3}

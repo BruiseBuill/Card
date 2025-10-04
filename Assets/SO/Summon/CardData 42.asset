@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df8177a4a8c505947bc83f6c235e4e8a, type: 3}
-  m_Name: CardData 36
+  m_Name: CardData 42
   m_EditorClassIdentifier: 
-  index: 37
-  name: "\u91CE\u732A"
-  attack: 3
+  index: 43
+  name: "\u6D77\u9A6C"
+  attack: 1
   defense: 4
-  introduction: "\u6253\u51FA\u65F6\uFF0C\u624B\u724C\u4E2D\u83B7\u5F97\u4E00\u4E2A\u5E7D\u7075"
+  introduction: "\u6BCF\u5F53\u4F60\u6709\u4E00\u4E2A\u52A8\u7269\u81EA\u7206\uFF0C\u53EF\u4EE5\u518D\u6253\u51FA\u4E00\u5F20\u624B\u724C\uFF0C\u4E00\u56DE\u5408\u9650\u4E00\u6B21\uFF08\u5305\u62EC\u81EA\u8EAB\u81EA\u7206\uFF09"
   valueEffect: <sprite=0>+1
-  profile: {fileID: 21300000, guid: 7db67e5b733582f43a073da96f03fddb, type: 3}
+  profile: {fileID: 21300000, guid: 1ae9563cc8cae9147b00ce24df6e9fa3, type: 3}

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 27
   name: "\u7AE0\u9C7C"
-  attack: 2
-  defense: 5
-  introduction: "\u653B\u51FB\u65F6\uFF0C\u5373\u4F7F\u6253\u5E73\u6216\u8005\u5931\u8D25\uFF0C\u4E5F\u4E0D\u4F1A\u56E0\u6B64\u88AB\u51FB\u8D25"
+  attack: 3
+  defense: 4
+  introduction: "\u653B\u51FB\u65F6\uFF0C\u4F60\u4F1A\u540C\u65F6\u653B\u51FB\u9762\u524D\u548C\u53F3\u4FA7\uFF08\u4FA7\u9762\u5982\u679C\u662F\u5899\u58C1\u5219\u4E0D\u4EA7\u751F\u6548\u679C\uFF09"
   valueEffect: <sprite=0>+1
   profile: {fileID: 21300000, guid: 4f5e6f6f2a22af340992ecd94f9c9bb4, type: 3}

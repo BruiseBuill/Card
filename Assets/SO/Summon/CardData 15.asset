@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 16
   name: "\u732B"
-  attack: 2
+  attack: 1
   defense: 2
   introduction: "\u6B7B\u4EA1\u65F6\uFF0C\u53EF\u4EE5\u590D\u6D3B\u5E76\u8FD4\u56DE\u4F60\u624B\u724C\u4E2D\uFF08\u5931\u53BB\u5F3A\u5316\uFF09\uFF0C\u4F46\u65E0\u6CD5\u7ACB\u5373\u6253\u51FA"
   valueEffect: <sprite=0>+1
