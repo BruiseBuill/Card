@@ -371,6 +371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 2727677687510282911, guid: ddf3bf972a101a641b58d8b93e86b971, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5664624841260839931, guid: ddf3bf972a101a641b58d8b93e86b971, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -749,6 +753,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1380053344579618692, guid: 4a7473ee59a971b41ba39170c1216a4d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.24313727
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380053344579618692, guid: 4a7473ee59a971b41ba39170c1216a4d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.47058827
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380053344579618692, guid: 4a7473ee59a971b41ba39170c1216a4d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.67058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410329645590592244, guid: 4a7473ee59a971b41ba39170c1216a4d, type: 3}
+      propertyPath: m_Color.a
+      value: 0.21176471
+      objectReference: {fileID: 0}
     - target: {fileID: 6946186158865451452, guid: 4a7473ee59a971b41ba39170c1216a4d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -918,6 +938,10 @@ PrefabInstance:
     - target: {fileID: 2210278996145323903, guid: 0d8dd53bc00e62c4e89618a5cdbaf5f1, type: 3}
       propertyPath: m_Name
       value: FoodCardBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210278996145323903, guid: 0d8dd53bc00e62c4e89618a5cdbaf5f1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
