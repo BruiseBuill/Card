@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SupProfile
-  m_Shader: {fileID: -6465566751694194690, guid: cd9a5ac592583f14ba43e41612383d84, type: 3}
+  m_Name: SupProfileBG
+  m_Shader: {fileID: -6465566751694194690, guid: be3712eb992ab9140b6e7f09c9655905, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -43,14 +43,15 @@ Material:
     m_Floats:
     - _Const_One: 1
     - _Const_Two: 2
+    - _Const_Zero: 0.01
     - _Const_half: 0.5
     - _InnerDiameter: 0
-    - _OutterDiameter: 1.37
+    - _OutterDiameter: 0.52
     - _ifColorFade: 0
-    - _offset: 4.16
+    - _offset: 1.56
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &3269186920081794519
+--- !u!114 &5169156119482175104
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

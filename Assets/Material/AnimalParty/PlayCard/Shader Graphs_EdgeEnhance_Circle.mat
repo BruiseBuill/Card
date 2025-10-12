@@ -59,7 +59,7 @@ Material:
     - _Const_Zero: 0.01
     - _Const_half: 0.5
     - _InnerDiameter: 1.21
-    - _OutterDiameter: 1
+    - _OutterDiameter: 3.59
     - _ifColorFade: 0
     - _offset: 0
     m_Colors: []
