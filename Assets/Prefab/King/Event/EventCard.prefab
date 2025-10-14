@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4EBA\u624D\u5E02\u573A"
+  m_text: "\u796D\u7940"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 90fe956f95ed46e438ad75a0fd57e421, type: 2}
   m_sharedMaterial: {fileID: -890692355903530667, guid: 90fe956f95ed46e438ad75a0fd57e421, type: 2}
@@ -449,8 +449,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -107.69}
-  m_SizeDelta: {x: 450, y: 400}
+  m_AnchoredPosition: {x: 0, y: -105}
+  m_SizeDelta: {x: 460, y: 460}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7144914153002808391
 GameObject:
@@ -595,7 +595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 220}
+  m_AnchoredPosition: {x: 0, y: 240}
   m_SizeDelta: {x: 420, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4814857218914686904
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u9524\u6B7B\u4F60\u770B\u5F97\u89C1\u4F60\u7EAF\u51C0\u6C34\u5F00\u9664\u4F60\u5976\u8336\u7231\u5E93\u5B58"
+  m_text: "\u6BCF\u540D\u73A9\u5BB6\u63E1\u4F4F\u4E00\u5B9A\u6570\u91CF\u94B1\uFF0C\u7136\u540E\u540C\u65F6\u5C55\u793A\u5E76\u4E14\u4E0A\u4EA4\u56FD\u5E93\uFF0C\u82E5\u603B\u5171\u7684\u94B1\u5927\u4E8E\u7B49\u4E8E\uFF082*\u73A9\u5BB6\u6570\uFF09\uFF0C\u6BCF\u540D\u73A9\u5BB6\u83B7\u5F971d6\u5757\u94B1\u5E76\u4E14\u56FD\u738B\u83B7\u5F97\u7684\u94B1\u7FFB\u500D\u3002"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f18a1058221d87d43b5eb822e3adb557, type: 2}
   m_sharedMaterial: {fileID: -890692355903530667, guid: f18a1058221d87d43b5eb822e3adb557, type: 2}
@@ -699,8 +699,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
-  m_fontSizeBase: 38
+  m_fontSize: 39
+  m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -711,7 +711,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 2
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 20
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -925,7 +925,7 @@ Transform:
   m_Children:
   - {fileID: 7166264416896475720}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4856999864886117690
 SpriteRenderer:
@@ -976,7 +976,7 @@ SpriteRenderer:
   m_Size: {x: 6.3, y: 8.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1274715926020617312
@@ -991,6 +991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b5b4a261a8ba20428aca0f4a8911044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: 7ca1a4578625a3241b90380b779d0d8b, type: 2}
   nameText: {fileID: 386797414108698068}
   introductionText: {fileID: 2697658298002974893}

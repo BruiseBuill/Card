@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d88e9a56bf45be4b9a162e9e44f019a, type: 3}
-  m_Name: EventCardData 5
+  m_Name: EventCardData 9
   m_EditorClassIdentifier: 
-  name: "\u6212\u4E25"
+  name: "\u5F81\u7A0E"
   count: 1
-  introduction: "\u672C\u56DE\u5408\u53D1\u52A8\u653F\u53D8\uFF0C\u53CD\u8D3C\u4E00\u65B9\u6210\u529F\u6240\u9700\u8981\u7684\u6700\u4F4E\u529B\u91CF\u52A01\u3002"
+  introduction: "\u6BCF\u540D\u73A9\u5BB6\u7EDF\u8BA1\u5E76\u516C\u5F00\u81EA\u5DF1\u7684\u5BB6\u65CF\u8D22\u4EA7\uFF0C\u8D22\u4EA7\u6700\u591A\u7684\u73A9\u5BB6\u90FD\u9700\u8981\u4E0A\u4EA4\u4E24\u5757\u94B1\u5230\u56FD\u5E93\uFF08\u5982\u679C\u8D22\u4EA7\u5C0F\u4E8E10\u5219\u4E0D\u7528\uFF09\u3002"
