@@ -1,4 +1,0 @@
-repository "Unity_Card@csfcsfcsfcsf@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"
