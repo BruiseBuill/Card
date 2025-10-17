@@ -16,6 +16,5 @@ MonoBehaviour:
   cardType: 2
   characterNameList:
   - "Chara\u6587\u672C"
-  additionalTip: "Tip\u6587\u672C"
   supContent: "\u4EA4\u6613\u9636\u6BB5\u6253\u51FA\uFF0C\u4F7F\u5F53\u524D\u7684\u6697\u724C\u4EA4\u6613\u53D8\u6210\u660E\u724C\u4EA4\u6613"
   count: 1
