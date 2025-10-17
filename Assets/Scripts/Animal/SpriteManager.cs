@@ -39,7 +39,6 @@ namespace AnimalParty
             { "预卜先知","Predict"},
             { "突击检查","Inspect"},
             { "沉默是金","Silence"},
-            { "特别豁免","Exempt"},
             { "强买强卖","Trade"}
         };
         [SerializeField] protected List<Sprite> characterSprites;

@@ -19,6 +19,5 @@ MonoBehaviour:
   - "\u9E45"
   - "\u86C7"
   - "\u9E48\u9E55"
-  additionalTip: "Tip\u6587\u672C"
   supContent: "Sup\u6587\u672C"
-  count: 10
+  count: 11

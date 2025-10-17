@@ -24,7 +24,7 @@ namespace AnimalParty
                 dataList[i].name= value[0];
                 dataList[i].cardType = (PlayCardType)(int.Parse(value[1]));
                 dataList[i].characterNameList = value[2].Split(new char[] { ',', '£¬' });
-                dataList[i].additionalTip = value[3];
+
                 dataList[i].supContent= value[4];
                 dataList[i].count = int.Parse(value[5]);
             }

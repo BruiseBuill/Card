@@ -14,8 +14,6 @@ namespace AnimalParty
         
         public string[] characterNameList;
 
-        public string additionalTip;
-
         public string supContent;
 
         public int count;

@@ -13,8 +13,6 @@ namespace AnimalParty
         [SerializeField] TextMeshProUGUI nameText;
         [SerializeField] Image profileImage;
 
-        [SerializeField] TextMeshProUGUI additionalTipText;
-
         [Header("Food")]
         [SerializeField] Transform characterAreaBG;
         [SerializeField] GameObject characterPrefab;
@@ -39,7 +37,6 @@ namespace AnimalParty
                 profileImage.sprite = SpriteManager.Instance().GetSupImage(cardData.name);
             }
 
-            additionalTipText.text = cardData.additionalTip;
 
             if (cardData.cardType != PlayCardType.Blue)
             {
@@ -49,8 +46,8 @@ namespace AnimalParty
                     var go = Instantiate(characterPrefab);
                     go.transform.parent = characterAreaBG;
                     go.transform.Find("Text").GetComponent<TextMeshProUGUI>().text = cardData.characterNameList[i];
-                    go.transform.Find("BG").GetChild(0).GetComponent<Image>().sprite = SpriteManager.Instance().GetCharacterImage(cardData.characterNameList[i]);
-                    go.transform.Find("BG").GetChild(0).transform.localPosition = SpriteManager.Instance().GetOffset(cardData.characterNameList[i]);
+                    go.transform.Find("Profile").GetChild(0).GetComponent<Image>().sprite = SpriteManager.Instance().GetCharacterImage(cardData.characterNameList[i]);
+                    go.transform.Find("Profile").GetChild(0).transform.localPosition = SpriteManager.Instance().GetOffset(cardData.characterNameList[i]);
                 }
             }
             else
