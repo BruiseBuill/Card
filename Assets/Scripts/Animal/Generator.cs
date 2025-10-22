@@ -1,12 +1,13 @@
 using BF;
 using Card;
+using Summon;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace AnimalParty
 {
-    [RequireComponent(typeof(ScreenShot))]
     public class Generator : BaseGenerator
 	{
         [SerializeField] List<CharacterCardData> characterDataList;
@@ -17,15 +18,10 @@ namespace AnimalParty
         [SerializeField] GameObject humanCardPrefab;
 
         [Header("Alignment")]
-        [SerializeField] Vector3 offset;
         [SerializeField] protected int index;
         [SerializeField] protected int subIndex;
         [SerializeField] protected int posIndex;
         [SerializeField] bool isLoadingCharacter;
-
-        [Header("Shot")]
-        [SerializeField] float interval;
-        WaitForSeconds wait_Interval;
 
         Dictionary<string, Color> humanColorDic = new Dictionary<string, Color>();
 
@@ -66,63 +62,12 @@ namespace AnimalParty
         }
         #endregion
 
-        [ContextMenu("TestLoad")]
-        void TestLoadPage()
-        {
-            for(int i = 0; i < cardPosList.Count&& i <humanDataList.Count; i++)
-            {
-                var card = Instantiate(humanCardPrefab, cardPosList[i], Quaternion.identity);
-                card.GetComponent<HumanCard>().SetData(humanDataList[i]);
-                card.GetComponent<HumanCard>().Load();
-            }
-        }
-        
-        void LoadNine()
-        {
-            if (isLoadingCharacter)
-            {
-                while(index < characterDataList.Count && posIndex < cardPosList.Count)
-                {
-                    LoadCharacter(cardPosList[posIndex], characterDataList[index]);
-                    index++;
-                    posIndex++;
-                    if (index == characterDataList.Count)
-                    {
-                        isLoadingCharacter = false;
-                        index = 0;
-                        LoadNine();
-                    }
-                }
-            }
-            else
-            {
-                while(index < playDataList.Count && posIndex < cardPosList.Count)
-                {
-                    if (subIndex < playDataList[index].count)
-                    {
-                        LoadPlay(cardPosList[posIndex], playDataList[index]);
-                        subIndex++;
-                        posIndex++;
-                    }
-                    else
-                    {
-                        subIndex = 0;
-                        index++;
-                    }
-                }
-            }
-        }
-        [ContextMenu("Shot")]
-        public void Shot()
+        protected override IEnumerator Shotting()
         {
             isLoadingCharacter = true;
             index = 0;
             subIndex = 0;
             posIndex = 0;
-            StartCoroutine("Shotting");
-        }
-        IEnumerator Shotting()
-        {
             while (index < playDataList.Count) 
             {
                 yield return wait_Interval;
@@ -132,8 +77,43 @@ namespace AnimalParty
                     Destroy(cardGoList[0]);
                     cardGoList.RemoveAt(0);
                 }
-                LoadNine();
+                LoadOnePage(index);
                 screenShot.Capture();
+            }
+        }
+        protected override void LoadOnePage(int enoUse)
+        {
+            if (isLoadingCharacter)
+            {
+                for (int i = index; index < characterDataList.Count && posIndex < size.x * size.y; i++)
+                {
+                    LoadCharacter(GetPos(posIndex), characterDataList[index]);
+                    index++;
+                    posIndex++;
+                    if (index == characterDataList.Count)
+                    {
+                        index = 0;
+                        isLoadingCharacter = false;
+                        LoadOnePage(index);
+                    }
+                }
+            }
+            else
+            {
+                for (int i = index; index < playDataList.Count && posIndex < size.x * size.y; i++)
+                {
+                    if (subIndex < playDataList[index].count)
+                    {
+                        LoadPlay(GetPos(posIndex), playDataList[index]);
+                        subIndex++;
+                        posIndex++;
+                    }
+                    else
+                    {
+                        subIndex = 0;
+                        index++;
+                    }
+                }
             }
         }
         public Color GetHumanColor(string name)

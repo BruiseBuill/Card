@@ -12,11 +12,15 @@ namespace Card
         public int height = 256; // 截图的高度
         public int x = 100; // 截图起始点的X坐标
         public int y = 100; // 截图起始点的Y坐标
+        public bool isTransferWhiteIntoTransparent = false;
         int count;
         string savePath = "/screenShots";
 
         public Color borderColor = Color.green; // 边框颜色
         public int borderWidth = 2; // 边框宽度
+
+        bool isUseSelfName = false;
+        string picName;
 
         private void Awake()
         {
@@ -28,6 +32,11 @@ namespace Card
             {
                 Capture();
             }
+        }
+        public void SetName(string newName)
+        {
+            isUseSelfName = true;
+            picName = newName;
         }
         [ContextMenu("Shot")]
         public void Capture()
@@ -46,7 +55,15 @@ namespace Card
             camera.Render();
 
             // 创建一个新的Texture2D并从RenderTexture中读取像素
-            Texture2D screenShot = new Texture2D(width, height, TextureFormat.RGB24, false);
+            Texture2D screenShot;
+            if (isTransferWhiteIntoTransparent)
+            {
+                screenShot = new Texture2D(width, height, TextureFormat.RGBA32, false);
+            }
+            else
+            {
+                screenShot = new Texture2D(width, height, TextureFormat.RGB24, false);
+            }
             RenderTexture.active = renderTexture;
             screenShot.ReadPixels(new Rect(x, y, width, height), 0, 0);
             screenShot.Apply();
@@ -73,10 +90,17 @@ namespace Card
         // 生成截图的文件名
         string ScreenShotName(int width, int height)
         {
-            return string.Format("{0}{1}/screen_{2}x{3}_{4}_{5}.png",
-                                 Application.dataPath,savePath,
+            if (isUseSelfName)
+            {
+                isUseSelfName = false;
+                return string.Format(picName);
+            }
+            else
+            {
+                return string.Format("Screen_{0}x{1}_{2}_{3}.png",
                                  width, height,
                                  System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"), count);
+            }
         }
 
         void OnGUI()
