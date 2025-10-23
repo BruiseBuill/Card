@@ -97,7 +97,8 @@ namespace Card
             }
             else
             {
-                return string.Format("Screen_{0}x{1}_{2}_{3}.png",
+                return string.Format("{0}{1}/Screen_{2}x{3}_{4}_{5}.png",
+                    Application.dataPath, savePath,
                                  width, height,
                                  System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"), count);
             }
