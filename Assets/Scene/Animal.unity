@@ -600,10 +600,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1867315207}
-  width: 804
-  height: 1098
-  x: 838
-  y: 1205
+  width: 2480
+  height: 3508
+  x: 0
+  y: 0
   isTransferWhiteIntoTransparent: 0
   borderColor: {r: 0, g: 1, b: 0, a: 1}
   borderWidth: 2
@@ -771,7 +771,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.38823533, g: 0.25490198, b: 0.10196079, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
