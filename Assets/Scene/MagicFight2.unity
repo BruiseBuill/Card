@@ -172,6 +172,7 @@ MonoBehaviour:
   height: 3508
   x: 0
   y: 0
+  isTransferWhiteIntoTransparent: 0
   borderColor: {r: 0, g: 1, b: 0, a: 1}
   borderWidth: 2
 --- !u!1 &924251043

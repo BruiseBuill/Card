@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "\u7075\u9B42\u71C3\u70E7"
   power: 2
-  coolDown: 1
-  description: "<sprite=0>\u6062\u590D\u4E24\u70B9\u751F\u547D\u503C\uFF0C\u51CF\u5C11\u4E00\u70B9\u751F\u547D\u4E0A\u9650\n<sprite=0>\u82E5\u9996\u6B21\u4F7F\u7528\uFF0C\u8FDE\u51FB"
+  coolDown: 2
+  description: "<sprite=0>\u6062\u590D\u4E24\u70B9\u751F\u547D\u503C\uFF0C\u51CF\u5C11\u4E00\u70B9\u751F\u547D\u4E0A\u9650\n<sprite=0>\u8FDE\u51FB"
