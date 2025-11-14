@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 0 16
   m_EditorClassIdentifier: 
   name: "\u6D41\u661F"
-  power: 2
-  coolDown: 3
+  power: 4
+  coolDown: 4
   description: "<sprite=0>\u52A0\u901F\n<sprite=0>\u533A\u57DF\u52A0\u901F"
