@@ -21,7 +21,7 @@ namespace MagicFighting2
             for (int i = 0; i < dataList.Count; i++)
             {
                 value = reader.ReadLine(i + 1, 6);
-
+                dataList[i].index = value[0];
                 dataList[i].name = value[1];
                 dataList[i].power = value[2];
                 dataList[i].coolDown = value[3];

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d64953c98a13648b526023d6758021, type: 3}
   m_Name: 0 38
   m_EditorClassIdentifier: 
+  index: "\u200Cam"
   name: "\u5145\u80FD"
   power: 7
   coolDown: 3

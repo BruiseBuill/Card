@@ -1,5 +1,6 @@
 using BF;
 using Card;
+using OfficeOpenXml.FormulaParsing.Utilities;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,8 @@ namespace MagicFighting2
 
         [Header("Test")]
         [SerializeField] protected GameObject testPrefab;
+
+        [SerializeField] protected GameObject sp_Prefab;
         [SerializeField] protected int testIndex;
         protected int TestIndex
         {
@@ -72,6 +75,11 @@ namespace MagicFighting2
         {
             for (int i = index; i < dataList.Count && i < size.x * size.y + index; i++) 
             {
+                int r = 0;
+                if (int.TryParse(dataList[i].index,out r)) 
+                {
+                    testPrefab = sp_Prefab;
+                }
                 var cardGo = Instantiate(testPrefab, GetPos(i - index), Quaternion.identity);
                 var card = cardGo.GetComponent<MagicCard>();
                 card.SetData(dataList[i]);

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d64953c98a13648b526023d6758021, type: 3}
   m_Name: 0 7
   m_EditorClassIdentifier: 
+  index: h
   name: "\u6C89\u91CD\u6253\u51FB"
   power: 7
   coolDown: 3

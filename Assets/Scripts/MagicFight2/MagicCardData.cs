@@ -7,6 +7,7 @@ namespace MagicFighting2
     [CreateAssetMenu(fileName = "MagicCardData", menuName = "Self/Magic2/MagicCardData")]
     public class MagicCardData : ScriptableObject
 	{
+        public string index;
         new public string name;
         public string power;
         public string coolDown;
