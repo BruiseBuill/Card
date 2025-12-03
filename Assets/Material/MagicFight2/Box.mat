@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7179645842929941919
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EdgeEnhance
-  m_Shader: {fileID: -6465566751694194690, guid: be3712eb992ab9140b6e7f09c9655905, type: 3}
+  m_Name: Box
+  m_Shader: {fileID: -6465566751694194690, guid: df7e29da2d6716a4fab239cad23dbbb2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -54,13 +41,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Const_One: 1
-    - _Const_Two: 2
-    - _Const_Zero: 0.01
-    - _Const_half: 0.5
-    - _InnerDiameter: 0
-    - _OutterDiameter: 1
-    - _ifColorFade: 1
-    - _offset: 1.64
-    m_Colors: []
+    - _ColorMask: 0
+    - _roundRadius: 0.05
+    m_Colors:
+    - _size: {r: 1, g: 0.46, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &3424197607070954689
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
