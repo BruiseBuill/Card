@@ -175,71 +175,6 @@ MonoBehaviour:
   isTransferWhiteIntoTransparent: 0
   borderColor: {r: 0, g: 1, b: 0, a: 1}
   borderWidth: 2
---- !u!1001 &276686432
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 171801985751459265, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5049076349624436464, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_Name
-      value: MagicCard
-      objectReference: {fileID: 0}
-    - target: {fileID: 5049076349624436464, guid: 96590c067e04119428169f0ff7546654, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 96590c067e04119428169f0ff7546654, type: 3}
 --- !u!1 &532611366
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,8 +430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -126.8}
-  m_SizeDelta: {x: 0, y: 560}
+  m_AnchoredPosition: {x: 0, y: -132}
+  m_SizeDelta: {x: 0, y: 540}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &989279965
 MonoBehaviour:
@@ -790,8 +725,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -139.3}
-  m_SizeDelta: {x: 12, y: 586}
+  m_AnchoredPosition: {x: 0, y: -145}
+  m_SizeDelta: {x: 12, y: 566}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1768939171
 MonoBehaviour:
@@ -1276,8 +1211,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u5145\u80FD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6c6c8335253cb66448f1633cc1146480, type: 2}
-  m_sharedMaterial: {fileID: 5607928793009202244, guid: 6c6c8335253cb66448f1633cc1146480, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 932b2523ba50fef4a908078d9ac627b1, type: 2}
+  m_sharedMaterial: {fileID: 5607928793009202244, guid: 932b2523ba50fef4a908078d9ac627b1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1360,8 +1295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 24}
-  m_SizeDelta: {x: -30, y: 260}
+  m_AnchoredPosition: {x: 0, y: 18.34}
+  m_SizeDelta: {x: -30, y: 238.93}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &2093831834498085634
 GameObject:
@@ -1524,7 +1459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: c9a5e7b55c4493447bcb611c9045fbc7, type: 2}
-  m_Color: {r: 0.44845137, g: 0.88532966, b: 0.9622642, a: 1}
+  m_Color: {r: 0.45745817, g: 0.8312567, b: 0.9433962, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1739,10 +1674,10 @@ RectTransform:
   m_Father: {fileID: 4033248717122182332}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 5}
-  m_SizeDelta: {x: -60, y: -10}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 10}
+  m_SizeDelta: {x: -60, y: 675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5220190948734958013
 RectTransform:
@@ -1994,7 +1929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 5e2c013f70c3cc143898a8c4a7e37717, type: 2}
-  m_Color: {r: 0.2584905, g: 0.7193157, b: 1, a: 1}
+  m_Color: {r: 0.5058824, g: 0.663421, b: 0.90588236, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2150,8 +2085,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37
-  m_fontSizeBase: 37
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2164,7 +2099,7 @@ MonoBehaviour:
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 35
+  m_paragraphSpacing: 50
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
