@@ -1,6 +1,5 @@
 using BF;
 using Card;
-using OfficeOpenXml.FormulaParsing.Utilities;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,6 +34,28 @@ namespace MagicFighting2
         [Header("Shot")]
         [SerializeField] float interval=0.9f;
         WaitForSeconds wait_Interval;
+
+        [Header("Profiles")]
+        [SerializeField] List<Sprite> profiles;
+        Dictionary<string, Sprite> profileDic=new Dictionary<string, Sprite>();
+        public Sprite GetProfile(string name)
+        {
+            if (profileDic == null || profileDic.Count == 0)  
+            {
+                foreach(var p in profiles)
+                {
+                    if (p.name == name)
+                    {
+                        return p;
+                    }
+                }
+                return null;
+            }
+            else
+            {
+                return profileDic[name];
+            }
+        }
 
 
         protected List<GameObject> cardGoList = new List<GameObject>();

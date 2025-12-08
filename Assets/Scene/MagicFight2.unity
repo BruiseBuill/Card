@@ -568,6 +568,9 @@ MonoBehaviour:
   sp_Prefab: {fileID: 5049076349624436464, guid: 4cebf071b9f25ce4a97021b901dbd531, type: 3}
   testIndex: 0
   interval: 0.9
+  profiles:
+  - {fileID: 21300000, guid: 29c6d61c8b8c6c2499361a0f42453d82, type: 3}
+  - {fileID: 21300000, guid: 6735f8f2672d45b4b990d2d8e8661abc, type: 3}
 --- !u!1 &1325771235
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,8 +990,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5002906258547001642}
-  - component: {fileID: 4518083782406714815}
   - component: {fileID: 3265346865902945269}
+  - component: {fileID: 5002906258547001643}
   m_Layer: 0
   m_Name: BigMagicCard
   m_TagString: Untagged
@@ -1046,7 +1049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1747c296e597bcf46a9508465e5fc104, type: 2}
   m_sharedMaterial: {fileID: 6743249021451143500, guid: 1747c296e597bcf46a9508465e5fc104, type: 2}
@@ -1135,7 +1138,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7404e7af0b4b8904a969aa33388c26cc, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1209,7 +1212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u5145\u80FD"
+  m_text: "\u6F6E\u6C50"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 932b2523ba50fef4a908078d9ac627b1, type: 2}
   m_sharedMaterial: {fileID: 5607928793009202244, guid: 932b2523ba50fef4a908078d9ac627b1, type: 2}
@@ -1593,23 +1596,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4518083782406714815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80594695869770267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b92088e181e87594186174d333b4dc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardData: {fileID: 11400000, guid: d727edb1c516eb14e9ea33ecea14be06, type: 2}
-  nameText: {fileID: 1757640172636574026}
-  powerText: {fileID: 8964333575693980246}
-  coolDownText: {fileID: 255400510537427193}
-  descriptionText: {fileID: 8748325732165035788}
 --- !u!114 &4914529652596014338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,6 +1642,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5002906258547001643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80594695869770267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab7f469d28291046a033511ac016928, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 11400000, guid: 22edd7dcc271fb848b2e4aa22cea8fae, type: 2}
+  nameText: {fileID: 1757640172636574026}
+  powerText: {fileID: 8964333575693980246}
+  coolDownText: {fileID: 255400510537427193}
+  descriptionText: {fileID: 8748325732165035788}
+  profile: {fileID: 738605164461821610}
 --- !u!224 &5026369088380276178
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2058,7 +2062,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<sprite=0>\u52A0\u901F\n<sprite=0>\u653B\u51FB\u65F6\u53EF\u4EE5\u5C06\u624B\u4E2D\u5176\u5B83\u6CD5\u672F\u8FDB\u5165\u51B7\u5374\uFF0C\u6BCF\u51B7\u5374\u4E00\u5F20\u83B7\u5F97\u4E00\u6B21\u52A0\u901F"
+  m_text: "<sprite=0>\u5149\u73AF\uFF1A\u4F7F\u4E00\u4E2A\u6CD5\u672F\u7ACB\u5373\u51B7\u5374\u5B8C\u6BD5\n<sprite=0>\u6B64\u5149\u73AF\u4EC5\u80FD\u5728
+    \u8F6E\u5230\u4F60\u8FDB\u653B\u5E76\u4E14\u51FA\u724C\u4E4B\u524D \u4F7F\u7528"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c5faf9ef758963c48b9026bba1a3f0a0, type: 2}
   m_sharedMaterial: {fileID: 5607928793009202244, guid: c5faf9ef758963c48b9026bba1a3f0a0, type: 2}
@@ -2188,7 +2193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 7
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a4e201082704c16499e651090397b0c6, type: 2}
   m_sharedMaterial: {fileID: 6743249021451143500, guid: a4e201082704c16499e651090397b0c6, type: 2}
