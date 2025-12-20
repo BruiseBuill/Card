@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d64953c98a13648b526023d6758021, type: 3}
   m_Name: 0 16
   m_EditorClassIdentifier: 
-  index: q
-  name: "\u6D41\u661F"
+  index: "\u200Cq"
+  name: "\u6D77\u6D8C"
   power: 4
   coolDown: 4
   description: "<sprite=0>\u52A0\u901F\n<sprite=0>\u533A\u57DF\u52A0\u901F"

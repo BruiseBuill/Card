@@ -564,6 +564,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9979490bac6e7f44c9bc643b52c7bf2b, type: 2}
   - {fileID: 11400000, guid: 01d77fe9e1a68354dae2a2f43366f599, type: 2}
   - {fileID: 11400000, guid: 47d52b3ace5e80c44a519197f77159b0, type: 2}
+  - {fileID: 11400000, guid: 095db78d3d919754d93cd520fb971743, type: 2}
+  - {fileID: 11400000, guid: 631f24014a013af4c9a2b18cce83b8b8, type: 2}
+  - {fileID: 11400000, guid: 53babd8c2fe011840a21a2d8f3a47259, type: 2}
+  - {fileID: 11400000, guid: 7922b74c30b399a42aeef7fda6636c9a, type: 2}
   testPrefab: {fileID: 5049076349624436464, guid: 96590c067e04119428169f0ff7546654, type: 3}
   sp_Prefab: {fileID: 5049076349624436464, guid: 4cebf071b9f25ce4a97021b901dbd531, type: 3}
   testIndex: 0
@@ -651,6 +655,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9979490bac6e7f44c9bc643b52c7bf2b, type: 2}
   - {fileID: 11400000, guid: 01d77fe9e1a68354dae2a2f43366f599, type: 2}
   - {fileID: 11400000, guid: 47d52b3ace5e80c44a519197f77159b0, type: 2}
+  - {fileID: 11400000, guid: 095db78d3d919754d93cd520fb971743, type: 2}
+  - {fileID: 11400000, guid: 631f24014a013af4c9a2b18cce83b8b8, type: 2}
+  - {fileID: 11400000, guid: 53babd8c2fe011840a21a2d8f3a47259, type: 2}
+  - {fileID: 11400000, guid: 7922b74c30b399a42aeef7fda6636c9a, type: 2}
   xmlFilePath: /Resource/MagicFight2/Magic.xlsx
 --- !u!114 &1325771237
 MonoBehaviour:
@@ -998,7 +1006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &131646842030055864
 MonoBehaviour:
   m_ObjectHideFlags: 0
