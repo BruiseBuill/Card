@@ -28,8 +28,8 @@ namespace MagicFighting2
         protected ScreenShot screenShot;
 
         [Header("Alignment")]
-        static Vector3 offset = new Vector3(4.1f, 5.7f, 0); 
-        static Vector2Int size = new Vector2Int(4, 5);
+        static Vector3 offset = new Vector3(5f, 7f, 0); 
+        static Vector2Int size = new Vector2Int(4, 4);
 
         [Header("Shot")]
         [SerializeField] float interval=0.9f;
