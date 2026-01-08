@@ -8,7 +8,7 @@ namespace MagicFighting2
 {
 	public class MagicCard : MonoBehaviour
 	{
-        [SerializeField] MagicCardData cardData;
+        [SerializeField] protected MagicCardData cardData;
 
         public TextMeshProUGUI nameText;
         public TextMeshProUGUI powerText;
@@ -20,7 +20,7 @@ namespace MagicFighting2
             this.cardData = cardData;
         }
         [ContextMenu("Load")]
-        public void Load()
+        public virtual void Load()
         {
             nameText.text = cardData.name;
             powerText.text=cardData.power;
