@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TextBox
-  m_Shader: {fileID: -6465566751694194690, guid: df7e29da2d6716a4fab239cad23dbbb2, type: 3}
+  m_Name: BGCircle
+  m_Shader: {fileID: -6465566751694194690, guid: bc56d365c21b46642848b80d01d2f10d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -40,13 +40,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _ColorMask: 0
-    - _roundRadius: 0.05
+    m_Floats: []
     m_Colors:
-    - _size: {r: 1, g: 0.315, b: 0, a: 0}
+    - _pos: {r: 0.3713, g: 0.3944, b: 0, a: 0}
+    - _size: {r: 0.209, g: 0.149, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &8447495823259931371
+--- !u!114 &2173920120267091495
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

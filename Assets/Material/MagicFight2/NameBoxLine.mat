@@ -59,5 +59,5 @@ Material:
     m_Colors:
     - _color: {r: 1, g: 1, b: 1, a: 0}
     - _lineWidth: {r: 0.012, g: 0.007, b: 0, a: 0}
-    - _size: {r: 1, g: 0.16, b: 0, a: 0}
+    - _size: {r: 0.8, g: 0.15, b: 0, a: 0}
   m_BuildTextureStacks: []
