@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: s
   name: "\u55B7\u6CC9"
-  power: 2
+  power: 3
   coolDown: 2
   description: "<sprite=0>\u533A\u57DF\u52A0\u901F"
