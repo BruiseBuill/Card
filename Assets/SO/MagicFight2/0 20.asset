@@ -16,5 +16,4 @@ MonoBehaviour:
   name: "\u98DE\u53F6\u8FDE\u51FB"
   power: 2
   coolDown: 2
-  description: "<sprite=0>\u53CC\u53D1\n<sprite=0>\u6B64\u6CD5\u672F\u83B7\u5F97\u7684
-    \u989D\u5916\u8FDB\u653B\u529B\u91CF \u7FFB\u500D"
+  description: "<sprite=0>\u53CC\u53D1\n<sprite=0>\u6B64\u6CD5\u672F\u83B7\u5F97\u7684\u989D\u5916\u8FDB\u653B\u529B\u91CF\u7FFB\u500D"

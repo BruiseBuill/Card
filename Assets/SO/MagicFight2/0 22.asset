@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: w
   name: "\u72C2\u8E81\u8611\u83C7"
-  power: 4
+  power: 2
   coolDown: 3
-  description: "<sprite=0>\u53CC\u53D1\n<sprite=0>\u52A0\u901F"
+  description: "<sprite=0>\u53CC\u53D1\n<sprite=0>\u968F\u673A\u67E5\u770B\u5BF9\u65B9\u4E00\u5F20\u624B\u724C\uFF0C\u529B\u91CF>=7\u5219\u7ACB\u5373\u8FDB\u5165\u51B7\u5374\u4E14\u51B7\u5374\u65F6\u95F4\u51CF\u4E00"
