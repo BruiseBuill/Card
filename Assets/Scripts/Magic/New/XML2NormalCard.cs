@@ -23,7 +23,7 @@ namespace MagicFighting
                 value = reader.ReadLine(i + 1, 7);
 
                 dataList[i].name = value[0];
-                dataList[i].kind = (NormalCardKind)(int.Parse(value[1]));
+                dataList[i].Property = (NormalCardProperty)(int.Parse(value[1]));
                 dataList[i].count = (int.Parse(value[2]));
                 dataList[i].timingForPutting = (int.Parse(value[3]));
                 dataList[i].effectCost = value[4];
