@@ -55,5 +55,18 @@ namespace Card
         }
         protected abstract IEnumerator Shotting();
         protected abstract void LoadOnePage(int index);
+        protected void LoadOnePage()
+        {
+            for (int i = 0;i < size.x * size.y; i++)
+            {
+                var cardGo = LoadOneCard();
+                if (cardGo != null)
+                {
+                    cardGo.transform.position = GetPos(i);
+                    cardGoList.Add(cardGo);
+                }                
+            }
+        }
+        protected abstract GameObject LoadOneCard();
     }
 }

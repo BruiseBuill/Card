@@ -119,5 +119,10 @@ namespace AnimalParty
         {
             return humanColorDic[name];
         }
+
+        protected override GameObject LoadOneCard()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

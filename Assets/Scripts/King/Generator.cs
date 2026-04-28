@@ -96,6 +96,10 @@ namespace King
                 }
             }
         }
-        
+
+        protected override GameObject LoadOneCard()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

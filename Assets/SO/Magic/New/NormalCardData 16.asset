@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fc69aa830ae9143a03f0f0d317375e, type: 3}
+  m_Name: NormalCardData 16
+  m_EditorClassIdentifier: 
+  name: "\u6DEC\u706B"
+  count: 2
+  kindDescription: "\u706B\u5143\u7D20\u6280\u80FD"
+  isCostMagic: 0
+  rare: 0
+  Property: 3
+  isSkill: 1
+  timingForPutting: 2
+  effectDescription: "\u8FDB\u653B\u65F6\uFF0C\u7269\u7406\u653B\u51FB\u989D\u5916\u9644\u5E26\u4E00\u70B9\u706B\u5143\u7D20\u4F24\u5BB3\n\u4E5F\u53EF\u4EE5\u4E22\u5F03\u6B64\u6280\u80FD\uFF0C\u518D\u6478\u4E00\u5F20\u724C"
+  effectCost: 0

@@ -12,7 +12,7 @@ namespace MagicFighting
 
         public string kindDescription;
 
-		public bool isMagic;
+		public bool isCostMagic;
 		
 		public Rare rare;
 
@@ -33,11 +33,12 @@ namespace MagicFighting
 	{
 		PhysicsAttack,
 		PhysicsDefense,
-		Flare,
-		Water,
+        Water,
+        Flare,
 		Grass,
 		Mana,
 		Special,
-		Book
+		Book,
+		Double
     }
 }

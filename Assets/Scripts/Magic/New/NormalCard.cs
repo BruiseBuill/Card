@@ -46,13 +46,16 @@ namespace MagicFighting
             if (!cardData.isSkill)
             {
                 propertyImage.sprite = PicProvider.Instance().GetPropertyTexture(cardData.Property);
+                propertyImage.SetNativeSize();
                 skillKindImage.gameObject.SetActive(false);
             }
             else
             {
                 propertyImage.sprite = PicProvider.Instance().GetPropertyTexture(NormalCardProperty.Book);
+                propertyImage.SetNativeSize();
                 skillKindImage.gameObject.SetActive(true);
                 skillKindImage.sprite = PicProvider.Instance().GetPropertyTexture(cardData.Property);
+                skillKindImage.SetNativeSize();
             }
 
             timingIndices[0].SetActive(false);
@@ -68,14 +71,15 @@ namespace MagicFighting
 
             nameText.text = cardData.name;
             profileImage.sprite= PicProvider.Instance().GetPropertyTexture(cardData.Property);
+            profileImage.SetNativeSize();
             kindTextBG.sprite = PicProvider.Instance().GetCardKindBGTexture(cardData.rare);
             kindText.text = cardData.kindDescription;
 
-            if (cardData.isMagic)
+            if (cardData.isCostMagic)
             {
                 EffectForMagic.SetActive(true);
                 EffectForNonMagic.SetActive(false);
-                magicCostText.text = cardData.effectCost.ToString();
+                magicCostText.text = cardData.effectCost;
                 descriptionTextForMagic.text = cardData.effectDescription;
                 descriptionTextForNonMagic.text = "";
             }

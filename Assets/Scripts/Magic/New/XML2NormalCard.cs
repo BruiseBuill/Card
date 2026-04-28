@@ -20,14 +20,24 @@ namespace MagicFighting
             string[] value;
             for (int i = 0; i < dataList.Count; i++)
             {
-                value = reader.ReadLine(i + 1, 7);
+                value = reader.ReadLine(i + 1, 9);
 
                 dataList[i].name = value[0];
-                dataList[i].Property = (NormalCardProperty)(int.Parse(value[1]));
-                dataList[i].count = (int.Parse(value[2]));
-                dataList[i].timingForPutting = (int.Parse(value[3]));
-                dataList[i].effectCost = value[4];
-                dataList[i].effectDescription = value[5];
+                dataList[i].effectDescription = value[1];
+                dataList[i].rare = (Rare)(int.Parse(value[2]));
+                dataList[i].count = int.Parse(value[3]);
+
+                dataList[i].Property = (NormalCardProperty)int.Parse(value[4]);
+                dataList[i].kindDescription = value[5];
+                dataList[i].timingForPutting = int.Parse(value[6]);
+                dataList[i].isSkill = (int.Parse(value[7]) == 1);
+                if (dataList[i].isSkill)
+                {
+                    dataList[i].effectDescription += "\n也可以丢弃此技能，再摸一张牌";
+                }
+                dataList[i].effectCost = value[8];
+                dataList[i].isCostMagic = value[8] != "0";
+
             }
             foreach (var i in dataList)
             {
