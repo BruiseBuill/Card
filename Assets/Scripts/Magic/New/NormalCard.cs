@@ -81,7 +81,9 @@ namespace MagicFighting
                 EffectForNonMagic.SetActive(false);
                 magicCostText.text = cardData.effectCost;
                 descriptionTextForMagic.text = cardData.effectDescription;
+                descriptionTextForMagic.SetAllDirty();
                 descriptionTextForNonMagic.text = "";
+
             }
             else
             {
@@ -90,6 +92,7 @@ namespace MagicFighting
                 magicCostText.text = "";
                 descriptionTextForMagic.text = "";
                 descriptionTextForNonMagic.text = cardData.effectDescription;
+                descriptionTextForNonMagic.SetAllDirty();
             }
 
         }
