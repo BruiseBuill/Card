@@ -41,7 +41,6 @@ namespace MagicFighting
         [ContextMenu("Load")]
         public void Load()
         {
-            
             cardTextureImage.sprite = PicProvider.Instance().GetCardTexture(cardData.rare);
             if (!cardData.isSkill)
             {
@@ -80,19 +79,20 @@ namespace MagicFighting
                 EffectForMagic.SetActive(true);
                 EffectForNonMagic.SetActive(false);
                 magicCostText.text = cardData.effectCost;
-                descriptionTextForMagic.text = cardData.effectDescription;
+                descriptionTextForMagic.SetText(cardData.effectDescription.Replace("\\n", "\n"));
+                descriptionTextForMagic.richText = true;
                 descriptionTextForMagic.SetAllDirty();
-                descriptionTextForNonMagic.text = "";
-
+                descriptionTextForMagic.ForceMeshUpdate();
+                
             }
             else
             {
                 EffectForMagic.SetActive(false);
                 EffectForNonMagic.SetActive(true);
-                magicCostText.text = "";
-                descriptionTextForMagic.text = "";
-                descriptionTextForNonMagic.text = cardData.effectDescription;
+                descriptionTextForNonMagic.SetText(cardData.effectDescription.Replace("\\n", "\n"));
+                descriptionTextForNonMagic.richText = true;
                 descriptionTextForNonMagic.SetAllDirty();
+                descriptionTextForNonMagic.ForceMeshUpdate();
             }
 
         }

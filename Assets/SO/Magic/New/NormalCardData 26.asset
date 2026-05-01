@@ -20,5 +20,5 @@ MonoBehaviour:
   Property: 5
   isSkill: 0
   timingForPutting: 2
-  effectDescription: "\u6062\u590D\u4E00\u70B9\u6CD5\u529B\uFF0C\u62BD\u4E00\u5F20\u724C"
+  effectDescription: "\u6062\u590D\u4E00\u70B9\u6CD5\u529B\uFF0C\u6478\u4E00\u5F20\u724C"
   effectCost: 0

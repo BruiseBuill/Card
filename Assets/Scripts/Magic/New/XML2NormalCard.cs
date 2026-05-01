@@ -33,7 +33,7 @@ namespace MagicFighting
                 dataList[i].isSkill = (int.Parse(value[7]) == 1);
                 if (dataList[i].isSkill)
                 {
-                    dataList[i].effectDescription += "\n也可以丢弃此技能，再摸一张牌";
+                    dataList[i].effectDescription += "<size=30>\n可以重铸此技能牌</size>";
                 }
                 dataList[i].effectCost = value[8];
                 dataList[i].isCostMagic = value[8] != "0";

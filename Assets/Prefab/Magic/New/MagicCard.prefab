@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002\n\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002"
+  m_text: "\u8FDB\u653B\u65F6\u9020\u6210\u4E00\u70B9\u6C34\u5143\u7D20\u4F24\u5BB3\\n\u9632\u5FA1\u65F6\u62B5\u6321\u4E00\u70B9\u706B\u5143\u7D20\u4F24\u5BB3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47d28c55dd9d8894cb4d024de1205ee2, type: 2}
   m_sharedMaterial: {fileID: 5607928793009202244, guid: 47d28c55dd9d8894cb4d024de1205ee2, type: 2}
@@ -323,7 +323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198, y: -141.1}
+  m_AnchoredPosition: {x: -198, y: -122.8}
   m_SizeDelta: {x: 60.26, y: 199.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2452701312031243141
@@ -367,7 +367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6554043881208117519
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1110,7 +1110,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 49.666656, y: 86}
+  m_SizeDelta: {x: 44.444447, y: 75.55556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &254390600599096765
 CanvasRenderer:
@@ -1351,7 +1351,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002\n\u9020\u6210\u4E00\u70B9\u6C34\u5C5E\u6027\u4F24\u5BB3\u3002"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47d28c55dd9d8894cb4d024de1205ee2, type: 2}
   m_sharedMaterial: {fileID: 5607928793009202244, guid: 47d28c55dd9d8894cb4d024de1205ee2, type: 2}
@@ -1435,7 +1435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2193469427426001014
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1678,7 +1678,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70.9375, y: 50.9375}
+  m_SizeDelta: {x: 44.444447, y: 75.55556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2324385835941244927
 CanvasRenderer:
@@ -1735,7 +1735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3548464592746015507
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1980,7 +1980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec925cda277a6d946a25d1d5066b2c14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardData: {fileID: 0}
+  cardData: {fileID: 11400000, guid: e1758eae46dccc8458f599a91ca3b60d, type: 2}
   cardTextureImage: {fileID: 3264733417423189679}
   propertyImage: {fileID: 6162131860813287435}
   skillKindImage: {fileID: 2825011193297861515}
