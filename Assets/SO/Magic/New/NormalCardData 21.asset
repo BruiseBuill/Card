@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87fc69aa830ae9143a03f0f0d317375e, type: 3}
   m_Name: NormalCardData 21
   m_EditorClassIdentifier: 
-  name: "\u85E4\u8513"
+  name: "\u8346\u68D8"
   count: 2
   kindDescription: "\u8349\u5143\u7D20\u6280\u80FD"
   isCostMagic: 0

@@ -15,10 +15,10 @@ MonoBehaviour:
   name: "\u6728\u76FE"
   count: 1
   kindDescription: "\u8349\u5143\u7D20\u6280\u80FD"
-  isCostMagic: 0
-  rare: 1
+  isCostMagic: 1
+  rare: 2
   Property: 4
   isSkill: 1
   timingForPutting: 2
   effectDescription: "\u9632\u5FA1\u65F6\u53EF\u4EE5\u5C06\u8BE5\u6280\u80FD\u7FFB\u9762\uFF0C\u89C6\u4E3A\u4F60\u4F7F\u7528\u4E86\u4E00\u4E2A\u5706\u76FE\u3002\u8F6E\u5230\u4F60\u8FDB\u653B\u65F6\uFF0C\u6B64\u6280\u80FD\u6062\u590D\u6B63\u9762<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
-  effectCost: 0
+  effectCost: 1

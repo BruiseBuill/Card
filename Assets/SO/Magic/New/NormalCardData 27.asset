@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NormalCardData 27
   m_EditorClassIdentifier: 
   name: "\u51DD\u9732"
-  count: 9
+  count: 7
   kindDescription: "\u6CD5\u529B\u724C"
   isCostMagic: 0
   rare: 1
