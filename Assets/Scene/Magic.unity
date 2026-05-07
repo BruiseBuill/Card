@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txtFilePath: 
-  excelFilePath: /Resource/Magic/New/Magic.xlsx
+  excelFilePath: 
 --- !u!4 &1817820409
 Transform:
   m_ObjectHideFlags: 0
