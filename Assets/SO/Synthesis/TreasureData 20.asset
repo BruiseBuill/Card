@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dade43ee2838f141aba20f89ab886cf, type: 3}
+  m_Name: TreasureData 20
+  m_EditorClassIdentifier: 
+  name: "\u80F8\u9488"
+  hardScore: 5
+  synthesisScore: 2
+  colorIndex: 1
+  effect: "\u65E0\u89C6\u989C\u8272\u548C\u5176\u4ED6\u5361\u724C\u6548\u679C\u5F71\u54CD\uFF0C\u53EF\u4EE5\u6253\u5F00\u4E14\u6700\u591A\u53EA\u80FD\u6253\u5F004\u5F20\u98CE\u9669\u5B9D\u7269"
+  count: 1

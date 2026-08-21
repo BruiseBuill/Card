@@ -28,6 +28,7 @@ namespace Synthesis
             hardScoreText.text = treasureData.hardScore;
             synthesisScoreText.text = treasureData.synthesisScore;
             effectText.text = treasureData.effect;
+            profileImage.sprite = FindObjectOfType<Generator>().GetSprite(treasureData.name);
 
         }
 
