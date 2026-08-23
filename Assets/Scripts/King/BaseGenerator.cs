@@ -44,7 +44,7 @@ namespace Card
         [ContextMenu("TestLoad")]
         protected void TestLoad()
         {
-            GameObject cardGo = Instantiate(testPrefab, GetPos(testIndex), Quaternion.identity);
+            GameObject cardGo = Instantiate(testPrefab, GetPos(TestIndex), Quaternion.identity);
             cardGoList.Add(cardGo);
         }
 
