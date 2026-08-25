@@ -3089,6 +3089,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8eb5e6400dd4ce44a9a7f6190ad0d133, type: 2}
   - {fileID: 11400000, guid: 64b7154af0507b54eba7cecdd46ea1f6, type: 2}
   - {fileID: 11400000, guid: 6c09693b3f6fa2f498a8bc1f2c894bb2, type: 2}
+  - {fileID: 11400000, guid: 9efbab4fe1c70754f80222f866949df2, type: 2}
   isLoading: 1
 --- !u!114 &1082409377
 MonoBehaviour:
@@ -4271,6 +4272,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8eb5e6400dd4ce44a9a7f6190ad0d133, type: 2}
   - {fileID: 11400000, guid: 64b7154af0507b54eba7cecdd46ea1f6, type: 2}
   - {fileID: 11400000, guid: 6c09693b3f6fa2f498a8bc1f2c894bb2, type: 2}
+  - {fileID: 11400000, guid: 9efbab4fe1c70754f80222f866949df2, type: 2}
   xmlFilePath: /Resource/Magic/New/Magic.xlsx
 --- !u!1 &1842114304
 GameObject:
