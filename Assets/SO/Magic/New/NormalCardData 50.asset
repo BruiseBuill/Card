@@ -16,9 +16,9 @@ MonoBehaviour:
   count: 1
   kindDescription: "\u7279\u6B8A\u6280\u80FD"
   isCostMagic: 0
-  rare: 1
+  rare: 2
   Property: 6
   isSkill: 1
   timingForPutting: 2
-  effectDescription: "\u5F53\u4F60\u7684\u624B\u724C\u6570\u5C11\u4E8E\u4E24\u5F20\u65F6\uFF0C\u7ACB\u5373\u6478\u724C\u8865\u81F3\u4E24\u5F20<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
+  effectDescription: "\u5F53\u4F60\u6CA1\u6709\u624B\u724C\u65F6\uFF0C\u7ACB\u5373\u6478\u4E00\u5F20\u724C<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
   effectCost: 0
