@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87fc69aa830ae9143a03f0f0d317375e, type: 3}
   m_Name: NormalCardData 34
   m_EditorClassIdentifier: 
-  name: "\u7535\u5F27"
+  name: "\u96F7\u9E23"
   count: 1
   kindDescription: "\u6CD5\u529B\u6280\u80FD"
   isCostMagic: 0
@@ -20,5 +20,5 @@ MonoBehaviour:
   Property: 5
   isSkill: 1
   timingForPutting: 2
-  effectDescription: "\u7ACB\u5373\u6062\u590D\u4E00\u70B9\u6CD5\u529B\u3002\u6BCF\u4F7F\u7528\u4E00\u5F20\u7269\u7406\u653B\u51FB\uFF0C\u6062\u590D\u4E00\u70B9\u6CD5\u529B<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
+  effectDescription: "\u8FDB\u653B\u7ED3\u675F\u65F6\u6062\u590D\u4E00\u70B9\u6CD5\u529B\u503C<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
   effectCost: 0

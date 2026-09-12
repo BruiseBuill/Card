@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87fc69aa830ae9143a03f0f0d317375e, type: 3}
-  m_Name: NormalCardData 25
+  m_Name: NormalCardData 53
   m_EditorClassIdentifier: 
-  name: "\u5E7B\u5316"
+  name: "\u5927\u7206\u70B8"
   count: 1
-  kindDescription: "\u8349\u5143\u7D20\u6280\u80FD"
+  kindDescription: "\u7279\u6B8A\u6280\u80FD"
   isCostMagic: 0
-  rare: 0
-  Property: 4
+  rare: 1
+  Property: 6
   isSkill: 1
   timingForPutting: 2
-  effectDescription: "\u8FDB\u653B\u65F6\uFF0C\u53EF\u4EE5\u5C06\u8349\u6CD5\u672F\u8F6C\u5316\u4E3A\u7279\u6B8A\u6CD5\u672F\u91CD\u5851\uFF08\u4E0D\u6D88\u8017\u6CD5\u529B\uFF0C\u4E22\u5F03\u4E24\u5F20\u624B\u724C\uFF0C\u7136\u540E\u6478\u4E24\u5F20\uFF09<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
+  effectDescription: "\u4F7F\u7528\u5143\u7D20\u6CD5\u672F\u65F6\uFF0C\u53EF\u4EE5\u9009\u62E9\u989D\u5916\u6D88\u8017\u4E24\u70B9\u6CD5\u529B\uFF0C\u989D\u5916\u9644\u5E26\u4E24\u70B9\u4F24\u5BB3<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
   effectCost: 0

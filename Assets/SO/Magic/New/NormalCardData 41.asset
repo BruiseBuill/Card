@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87fc69aa830ae9143a03f0f0d317375e, type: 3}
   m_Name: NormalCardData 41
   m_EditorClassIdentifier: 
-  name: "\u5DEB\u672F\u54CD\u6307"
+  name: "\u542F\u793A"
   count: 1
-  kindDescription: "\u7279\u6B8A\u6CD5\u672F"
+  kindDescription: "\u6CD5\u529B\u6280\u80FD"
   isCostMagic: 1
   rare: 2
-  Property: 6
-  isSkill: 0
-  timingForPutting: 1
-  effectDescription: "\u6253\u65AD\u5BF9\u65B9\u7684\u4E00\u5F20\u6CD5\u672F\u724C\uFF0C\u4F7F\u6B64\u6CD5\u672F\u4E0D\u80FD\u4EA7\u751F\u4EFB\u4F55\u6548\u679C"
-  effectCost: 1
+  Property: 5
+  isSkill: 1
+  timingForPutting: 2
+  effectDescription: "\u6240\u6709\u6CD5\u672F\u4E0D\u518D\u6D88\u8017\u6CD5\u529B\uFF0C\u4F46\u65E0\u6CD5\u518D\u6253\u51FA\u6CD5\u529B\u724C\u3002\u56E0\u5176\u5B83\u6280\u80FD\u6240\u5BFC\u81F4\u7684\u989D\u5916\u6CD5\u529B\u6D88\u8017\u4E0D\u4F1A\u51CF\u514D<size=30>\n\u53EF\u4EE5\u91CD\u94F8\u6B64\u6280\u80FD\u724C</size>"
+  effectCost: 2
