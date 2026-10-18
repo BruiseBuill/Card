@@ -29,7 +29,7 @@ namespace MagicFighting2
 
         [Header("Alignment")]
         static Vector3 offset = new Vector3(6.3f, 8.8f, 0); 
-        static Vector2Int size = new Vector2Int(3, 3);
+        static Vector2Int size = new Vector2Int(1, 1);
 
         [Header("Shot")]
         [SerializeField] float interval=0.9f;
