@@ -40,7 +40,7 @@ namespace MagicFighting2
         Dictionary<string, Sprite> profileDic=new Dictionary<string, Sprite>();
         public Sprite GetProfile(string name)
         {
-            if (profileDic == null || profileDic.Count == 0)  
+            if (profileDic == null || profileDic.Count == 0 || !profileDic.ContainsKey(name)) 
             {
                 foreach(var p in profiles)
                 {
