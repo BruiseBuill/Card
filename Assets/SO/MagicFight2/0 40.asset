@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 0 40
   m_EditorClassIdentifier: 
   index: ao
-  name: "\u51B0\u5DDD\u6838\u5FC3"
+  name: "\u51B0\u971C\u6838\u5FC3"
   power: 6
   coolDown: 3
   description: "<sprite=0>\u51CF\u901F\n<sprite=0>\u4F7F\u5BF9\u65B9\u4E0B\u6B21\u8FDB\u653B\u65F6\uFF0C\u6CD5\u672F\u6700\u7EC8\u7684\u529B\u91CF\u503C\u51CF\u534A\uFF08\u5411\u4E0A\u53D6\u6574\uFF09"
